@@ -120,10 +120,6 @@ To install required packages, run:
 pip install -r requirements.txt
 ```
 
-## License
-This project is licensed under the MIT License. See the `LICENSE` file for more details.
-
-
 
 ## Example Conversations
 
@@ -197,3 +193,7 @@ Jax: You can find ropes on the west coast.
 Adventurer: Which coastline would be safe for a shelter?  
 Jax: The shelter should be built on the south coast. The mountains there can act as an additional shield from the storm.
 
+
+
+## License
+This project is licensed under the MIT License. See the `LICENSE` file for more details.
