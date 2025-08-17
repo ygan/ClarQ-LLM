@@ -27,6 +27,7 @@ class helpers_m(helpers):
 
         prompt = start + previous_content  + end
         response = self.prompt_pure(prompt)
+        # print(f"--------- start of response ---------\n{response}\n--------- end of response ---------")
         meet = True
         for s in all_info:
             if self.chinese:
@@ -62,6 +63,7 @@ class helpers_m(helpers):
 
 
     def predifine_info(self, previous_content, response):
+        # print(f" *************** start of response  *************** \n{response}\n *************** end of response ***************")
         g_r = None
         analysis = []
         all_info = []

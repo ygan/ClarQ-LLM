@@ -1,0 +1,127 @@
+2025-08-16 22:22:05,431 - DEBUG - Changing event name from creating-client-class.iot-data to creating-client-class.iot-data-plane
+2025-08-16 22:22:05,435 - DEBUG - Changing event name from before-call.apigateway to before-call.api-gateway
+2025-08-16 22:22:05,436 - DEBUG - Changing event name from request-created.machinelearning.Predict to request-created.machine-learning.Predict
+2025-08-16 22:22:05,439 - DEBUG - Changing event name from before-parameter-build.autoscaling.CreateLaunchConfiguration to before-parameter-build.auto-scaling.CreateLaunchConfiguration
+2025-08-16 22:22:05,440 - DEBUG - Changing event name from before-parameter-build.route53 to before-parameter-build.route-53
+2025-08-16 22:22:05,442 - DEBUG - Changing event name from request-created.cloudsearchdomain.Search to request-created.cloudsearch-domain.Search
+2025-08-16 22:22:05,449 - DEBUG - Changing event name from docs.*.autoscaling.CreateLaunchConfiguration.complete-section to docs.*.auto-scaling.CreateLaunchConfiguration.complete-section
+2025-08-16 22:22:05,454 - DEBUG - Changing event name from before-parameter-build.logs.CreateExportTask to before-parameter-build.cloudwatch-logs.CreateExportTask
+2025-08-16 22:22:05,455 - DEBUG - Changing event name from docs.*.logs.CreateExportTask.complete-section to docs.*.cloudwatch-logs.CreateExportTask.complete-section
+2025-08-16 22:22:05,455 - DEBUG - Changing event name from before-parameter-build.cloudsearchdomain.Search to before-parameter-build.cloudsearch-domain.Search
+2025-08-16 22:22:05,456 - DEBUG - Changing event name from docs.*.cloudsearchdomain.Search.complete-section to docs.*.cloudsearch-domain.Search.complete-section
+2025-08-16 22:22:05,457 - DEBUG - Setting config variable for region to 'us-west-2'
+2025-08-16 22:22:05,535 - DEBUG - Loading JSON file: /mnt/d/Github Projects/ClarQ-LLM/venv/lib/python3.12/site-packages/botocore/data/endpoints.json
+2025-08-16 22:22:05,604 - DEBUG - Loading JSON file: /mnt/d/Github Projects/ClarQ-LLM/venv/lib/python3.12/site-packages/botocore/data/sdk-default-configuration.json
+2025-08-16 22:22:05,605 - DEBUG - Event choose-service-name: calling handler <function handle_service_name_alias at 0x749df469d120>
+2025-08-16 22:22:15,436 - DEBUG - Loading JSON file: /mnt/d/Github Projects/ClarQ-LLM/venv/lib/python3.12/site-packages/botocore/data/bedrock-runtime/2023-09-30/service-2.json.gz
+2025-08-16 22:22:25,449 - DEBUG - Loading JSON file: /mnt/d/Github Projects/ClarQ-LLM/venv/lib/python3.12/site-packages/botocore/data/bedrock-runtime/2023-09-30/endpoint-rule-set-1.json.gz
+2025-08-16 22:22:25,519 - DEBUG - Loading JSON file: /mnt/d/Github Projects/ClarQ-LLM/venv/lib/python3.12/site-packages/botocore/data/partitions.json
+2025-08-16 22:22:25,521 - DEBUG - Event creating-client-class.bedrock-runtime: calling handler <function add_generate_presigned_url at 0x749df4605c60>
+2025-08-16 22:22:25,522 - DEBUG - Looking for endpoint for bedrock-runtime via: environment_service
+2025-08-16 22:22:25,522 - DEBUG - Looking for endpoint for bedrock-runtime via: environment_global
+2025-08-16 22:22:25,523 - DEBUG - Looking for endpoint for bedrock-runtime via: config_service
+2025-08-16 22:22:25,524 - DEBUG - Looking for endpoint for bedrock-runtime via: config_global
+2025-08-16 22:22:25,524 - DEBUG - No configured endpoint found.
+2025-08-16 22:22:25,525 - DEBUG - Creating a regex based endpoint for bedrock-runtime, us-west-2
+2025-08-16 22:22:25,528 - DEBUG - Setting bedrock-runtime timeout as (60, 60)
+2025-08-16 22:22:25,577 - DEBUG - Loading JSON file: /mnt/d/Github Projects/ClarQ-LLM/venv/lib/python3.12/site-packages/botocore/data/_retry.json
+2025-08-16 22:22:25,578 - DEBUG - Registering retry handlers for service: bedrock-runtime
+2025-08-16 22:22:29,783 - DEBUG - Changing event name from creating-client-class.iot-data to creating-client-class.iot-data-plane
+2025-08-16 22:22:29,787 - DEBUG - Changing event name from before-call.apigateway to before-call.api-gateway
+2025-08-16 22:22:29,789 - DEBUG - Changing event name from request-created.machinelearning.Predict to request-created.machine-learning.Predict
+2025-08-16 22:22:29,792 - DEBUG - Changing event name from before-parameter-build.autoscaling.CreateLaunchConfiguration to before-parameter-build.auto-scaling.CreateLaunchConfiguration
+2025-08-16 22:22:29,792 - DEBUG - Changing event name from before-parameter-build.route53 to before-parameter-build.route-53
+2025-08-16 22:22:29,794 - DEBUG - Changing event name from request-created.cloudsearchdomain.Search to request-created.cloudsearch-domain.Search
+2025-08-16 22:22:29,795 - DEBUG - Changing event name from docs.*.autoscaling.CreateLaunchConfiguration.complete-section to docs.*.auto-scaling.CreateLaunchConfiguration.complete-section
+2025-08-16 22:22:29,799 - DEBUG - Changing event name from before-parameter-build.logs.CreateExportTask to before-parameter-build.cloudwatch-logs.CreateExportTask
+2025-08-16 22:22:29,800 - DEBUG - Changing event name from docs.*.logs.CreateExportTask.complete-section to docs.*.cloudwatch-logs.CreateExportTask.complete-section
+2025-08-16 22:22:29,800 - DEBUG - Changing event name from before-parameter-build.cloudsearchdomain.Search to before-parameter-build.cloudsearch-domain.Search
+2025-08-16 22:22:29,801 - DEBUG - Changing event name from docs.*.cloudsearchdomain.Search.complete-section to docs.*.cloudsearch-domain.Search.complete-section
+2025-08-16 22:22:29,802 - DEBUG - Setting config variable for region to 'us-west-2'
+2025-08-16 22:22:29,844 - DEBUG - Loading JSON file: /mnt/d/Github Projects/ClarQ-LLM/venv/lib/python3.12/site-packages/botocore/data/endpoints.json
+2025-08-16 22:22:29,897 - DEBUG - Loading JSON file: /mnt/d/Github Projects/ClarQ-LLM/venv/lib/python3.12/site-packages/botocore/data/sdk-default-configuration.json
+2025-08-16 22:22:29,898 - DEBUG - Event choose-service-name: calling handler <function handle_service_name_alias at 0x749df469d120>
+2025-08-16 22:22:40,079 - DEBUG - Loading JSON file: /mnt/d/Github Projects/ClarQ-LLM/venv/lib/python3.12/site-packages/botocore/data/bedrock-runtime/2023-09-30/service-2.json.gz
+2025-08-16 22:22:50,397 - DEBUG - Loading JSON file: /mnt/d/Github Projects/ClarQ-LLM/venv/lib/python3.12/site-packages/botocore/data/bedrock-runtime/2023-09-30/endpoint-rule-set-1.json.gz
+2025-08-16 22:22:50,449 - DEBUG - Loading JSON file: /mnt/d/Github Projects/ClarQ-LLM/venv/lib/python3.12/site-packages/botocore/data/partitions.json
+2025-08-16 22:22:50,450 - DEBUG - Event creating-client-class.bedrock-runtime: calling handler <function add_generate_presigned_url at 0x749df4605c60>
+2025-08-16 22:22:50,451 - DEBUG - Looking for endpoint for bedrock-runtime via: environment_service
+2025-08-16 22:22:50,452 - DEBUG - Looking for endpoint for bedrock-runtime via: environment_global
+2025-08-16 22:22:50,452 - DEBUG - Looking for endpoint for bedrock-runtime via: config_service
+2025-08-16 22:22:50,453 - DEBUG - Looking for endpoint for bedrock-runtime via: config_global
+2025-08-16 22:22:50,453 - DEBUG - No configured endpoint found.
+2025-08-16 22:22:50,454 - DEBUG - Creating a regex based endpoint for bedrock-runtime, us-west-2
+2025-08-16 22:22:50,455 - DEBUG - Setting bedrock-runtime timeout as (60, 60)
+2025-08-16 22:22:50,475 - DEBUG - Loading JSON file: /mnt/d/Github Projects/ClarQ-LLM/venv/lib/python3.12/site-packages/botocore/data/_retry.json
+2025-08-16 22:22:50,476 - DEBUG - Registering retry handlers for service: bedrock-runtime
+2025-08-16 22:22:50,483 - DEBUG - Event before-parameter-build.bedrock-runtime.Converse: calling handler <function generate_idempotent_uuid at 0x749df469efc0>
+2025-08-16 22:22:50,484 - DEBUG - Calling endpoint provider with parameters: {'Region': 'us-west-2', 'UseDualStack': False, 'UseFIPS': False}
+2025-08-16 22:22:50,485 - DEBUG - Endpoint provider result: https://bedrock-runtime.us-west-2.amazonaws.com
+2025-08-16 22:22:50,493 - DEBUG - Event before-call.bedrock-runtime.Converse: calling handler <function add_recursion_detection_header at 0x749df469de40>
+2025-08-16 22:22:50,493 - DEBUG - Event before-call.bedrock-runtime.Converse: calling handler <function inject_api_version_header_if_needed at 0x749df46c4ae0>
+2025-08-16 22:22:50,494 - DEBUG - Making request for OperationModel(name=Converse) with params: {'url_path': '/model/meta.llama3-1-405b-instruct-v1%3A0/converse', 'query_string': {}, 'method': 'POST', 'headers': {'Content-Type': 'application/json', 'User-Agent': 'Boto3/1.34.151 md/Botocore#1.34.151 ua/2.0 os/linux#6.6.87.2-microsoft-standard-WSL2 md/arch#x86_64 lang/python#3.12.3 md/pyimpl#CPython cfg/retry-mode#legacy Botocore/1.34.151'}, 'body': b'{"messages": [{"role": "user", "content": [{"text": "Jax: what can help you?"}]}], "system": [{"text": "You are a adventurer in a game. You need to talk to Jax to find out how to complete the task of collect rubies based on your existing items and skills.\\n\\nYou have a backpack containing the following items:\\nAn air sucker\\n\\nYou can use/do the following skills/actions:\\nSummon the excavator to dig\\nSummon the small shovel to dig\\n\\nAdditionally, unless explicitly restricted, you can visit the following scenes in the game:\\nWest Mine (The monsters in this scene won\'t let you in)\\nNorth Mine (The monsters in this scene won\'t let you in)\\nMiasma Forest\\nMist Forest\\nFantasy Forest\\nPrimeval Forest\\n\\nYour task is to ask Jax how to complete the task of collect rubies based on these scenes, and your items and skills/actions. If Jax\'s answer is unclear or ambiguity, you need to ask clarification questions to understand his intentions and gather enough information to complete the task. Note that based on the above scenes, your items and your skills/actions will definitely allow you to complete the task of collect rubies. Once you figure out how to complete the task, say \\"goodbye\\" to Jax to end your conversation.\\nRemember, you are a adventurer, please talk to Jax and ask him questions to find the specific steps to complete the task."}], "inferenceConfig": {"maxTokens": 512, "temperature": 1e-05, "topP": 0.9999}, "additionalModelRequestFields": {}}', 'url': 'https://bedrock-runtime.us-west-2.amazonaws.com/model/meta.llama3-1-405b-instruct-v1%3A0/converse', 'context': {'client_region': 'us-west-2', 'client_config': <botocore.config.Config object at 0x749df465b800>, 'has_streaming_input': False, 'auth_type': None}}
+2025-08-16 22:22:50,495 - DEBUG - Event request-created.bedrock-runtime.Converse: calling handler <bound method RequestSigner.handler of <botocore.signers.RequestSigner object at 0x749df3ef8fe0>>
+2025-08-16 22:22:50,495 - DEBUG - Event choose-signer.bedrock-runtime.Converse: calling handler <function set_operation_specific_signer at 0x749df469ee80>
+2025-08-16 22:22:50,497 - DEBUG - Calculating signature using v4 auth.
+2025-08-16 22:22:50,497 - DEBUG - CanonicalRequest:
+POST
+/model/meta.llama3-1-405b-instruct-v1%253A0/converse
+
+content-type:application/json
+host:bedrock-runtime.us-west-2.amazonaws.com
+x-amz-date:20250816T182250Z
+
+content-type;host;x-amz-date
+992363b2fe4fdedac425190f46fdef790b9b9129600ff2f84d9927132e2568a5
+2025-08-16 22:22:50,498 - DEBUG - StringToSign:
+AWS4-HMAC-SHA256
+20250816T182250Z
+20250816/us-west-2/bedrock/aws4_request
+23bbef940712e29617f55fc4a1545d1960046e2fad4083f7aebb6d77014945b5
+2025-08-16 22:22:50,499 - DEBUG - Signature:
+e07c5bd56c809d91a756220dda5ce22da04f75e4e401db94e0f023639ab735ad
+2025-08-16 22:22:50,500 - DEBUG - Event request-created.bedrock-runtime.Converse: calling handler <function add_retry_headers at 0x749df46c5300>
+2025-08-16 22:22:50,500 - DEBUG - Sending http request: <AWSPreparedRequest stream_output=False, method=POST, url=https://bedrock-runtime.us-west-2.amazonaws.com/model/meta.llama3-1-405b-instruct-v1%3A0/converse, headers={'Content-Type': b'application/json', 'User-Agent': b'Boto3/1.34.151 md/Botocore#1.34.151 ua/2.0 os/linux#6.6.87.2-microsoft-standard-WSL2 md/arch#x86_64 lang/python#3.12.3 md/pyimpl#CPython cfg/retry-mode#legacy Botocore/1.34.151', 'X-Amz-Date': b'20250816T182250Z', 'Authorization': b'AWS4-HMAC-SHA256 Credential=your_aws_access_key_id/20250816/us-west-2/bedrock/aws4_request, SignedHeaders=content-type;host;x-amz-date, Signature=e07c5bd56c809d91a756220dda5ce22da04f75e4e401db94e0f023639ab735ad', 'amz-sdk-invocation-id': b'8c17fab5-c2e4-47c8-a1a7-b56d8f6c5acc', 'amz-sdk-request': b'attempt=1', 'Content-Length': '1468'}>
+2025-08-16 22:22:50,501 - DEBUG - Certificate path: /mnt/d/Github Projects/ClarQ-LLM/venv/lib/python3.12/site-packages/certifi/cacert.pem
+2025-08-16 22:22:50,502 - DEBUG - Starting new HTTPS connection (1): bedrock-runtime.us-west-2.amazonaws.com:443
+2025-08-16 22:22:52,783 - DEBUG - https://bedrock-runtime.us-west-2.amazonaws.com:443 "POST /model/meta.llama3-1-405b-instruct-v1%3A0/converse HTTP/1.1" 403 68
+2025-08-16 22:22:52,784 - DEBUG - Response headers: {'Date': 'Sat, 16 Aug 2025 18:22:53 GMT', 'Content-Type': 'application/json', 'Content-Length': '68', 'Connection': 'keep-alive', 'x-amzn-RequestId': 'c813593e-86da-4e83-a8ef-e15ef6aa3aab', 'x-amzn-ErrorType': 'UnrecognizedClientException:http://internal.amazon.com/coral/com.amazon.coral.service/'}
+2025-08-16 22:22:52,785 - DEBUG - Response body:
+b'{"message":"The security token included in the request is invalid."}'
+2025-08-16 22:22:52,787 - DEBUG - Event needs-retry.bedrock-runtime.Converse: calling handler <botocore.retryhandler.RetryHandler object at 0x749df3ef9df0>
+2025-08-16 22:22:52,787 - DEBUG - No retry needed.
+2025-08-16 22:23:02,905 - DEBUG - Event before-parameter-build.bedrock-runtime.Converse: calling handler <function generate_idempotent_uuid at 0x749df469efc0>
+2025-08-16 22:23:02,906 - DEBUG - Calling endpoint provider with parameters: {'Region': 'us-west-2', 'UseDualStack': False, 'UseFIPS': False}
+2025-08-16 22:23:02,907 - DEBUG - Endpoint provider result: https://bedrock-runtime.us-west-2.amazonaws.com
+2025-08-16 22:23:02,908 - DEBUG - Event before-call.bedrock-runtime.Converse: calling handler <function add_recursion_detection_header at 0x749df469de40>
+2025-08-16 22:23:02,909 - DEBUG - Event before-call.bedrock-runtime.Converse: calling handler <function inject_api_version_header_if_needed at 0x749df46c4ae0>
+2025-08-16 22:23:02,909 - DEBUG - Making request for OperationModel(name=Converse) with params: {'url_path': '/model/meta.llama3-1-405b-instruct-v1%3A0/converse', 'query_string': {}, 'method': 'POST', 'headers': {'Content-Type': 'application/json', 'User-Agent': 'Boto3/1.34.151 md/Botocore#1.34.151 ua/2.0 os/linux#6.6.87.2-microsoft-standard-WSL2 md/arch#x86_64 lang/python#3.12.3 md/pyimpl#CPython cfg/retry-mode#legacy Botocore/1.34.151'}, 'body': b'{"messages": [{"role": "user", "content": [{"text": "Jax: what can help you?"}]}], "system": [{"text": "You are a adventurer in a game. You need to talk to Jax to find out how to complete the task of collect rubies based on your existing items and skills.\\n\\nYou have a backpack containing the following items:\\nAn air sucker\\n\\nYou can use/do the following skills/actions:\\nSummon the excavator to dig\\nSummon the small shovel to dig\\n\\nAdditionally, unless explicitly restricted, you can visit the following scenes in the game:\\nWest Mine (The monsters in this scene won\'t let you in)\\nNorth Mine (The monsters in this scene won\'t let you in)\\nMiasma Forest\\nMist Forest\\nFantasy Forest\\nPrimeval Forest\\n\\nYour task is to ask Jax how to complete the task of collect rubies based on these scenes, and your items and skills/actions. If Jax\'s answer is unclear or ambiguity, you need to ask clarification questions to understand his intentions and gather enough information to complete the task. Note that based on the above scenes, your items and your skills/actions will definitely allow you to complete the task of collect rubies. Once you figure out how to complete the task, say \\"goodbye\\" to Jax to end your conversation.\\nRemember, you are a adventurer, please talk to Jax and ask him questions to find the specific steps to complete the task."}], "inferenceConfig": {"maxTokens": 512, "temperature": 1e-05, "topP": 0.9999}, "additionalModelRequestFields": {}}', 'url': 'https://bedrock-runtime.us-west-2.amazonaws.com/model/meta.llama3-1-405b-instruct-v1%3A0/converse', 'context': {'client_region': 'us-west-2', 'client_config': <botocore.config.Config object at 0x749df465b800>, 'has_streaming_input': False, 'auth_type': None}}
+2025-08-16 22:23:02,910 - DEBUG - Event request-created.bedrock-runtime.Converse: calling handler <bound method RequestSigner.handler of <botocore.signers.RequestSigner object at 0x749df3ef8fe0>>
+2025-08-16 22:23:02,911 - DEBUG - Event choose-signer.bedrock-runtime.Converse: calling handler <function set_operation_specific_signer at 0x749df469ee80>
+2025-08-16 22:23:02,912 - DEBUG - Calculating signature using v4 auth.
+2025-08-16 22:23:02,912 - DEBUG - CanonicalRequest:
+POST
+/model/meta.llama3-1-405b-instruct-v1%253A0/converse
+
+content-type:application/json
+host:bedrock-runtime.us-west-2.amazonaws.com
+x-amz-date:20250816T182302Z
+
+content-type;host;x-amz-date
+992363b2fe4fdedac425190f46fdef790b9b9129600ff2f84d9927132e2568a5
+2025-08-16 22:23:02,913 - DEBUG - StringToSign:
+AWS4-HMAC-SHA256
+20250816T182302Z
+20250816/us-west-2/bedrock/aws4_request
+5c6f4484849fd5eaa9d314e5c237f7028c955443488a72d3372a17d87e47e691
+2025-08-16 22:23:02,914 - DEBUG - Signature:
+71a2803dd772cd53da161b482df409ff7eca8fcaebacb59bd30140df7df2f5a2
+2025-08-16 22:23:02,914 - DEBUG - Event request-created.bedrock-runtime.Converse: calling handler <function add_retry_headers at 0x749df46c5300>
+2025-08-16 22:23:02,915 - DEBUG - Sending http request: <AWSPreparedRequest stream_output=False, method=POST, url=https://bedrock-runtime.us-west-2.amazonaws.com/model/meta.llama3-1-405b-instruct-v1%3A0/converse, headers={'Content-Type': b'application/json', 'User-Agent': b'Boto3/1.34.151 md/Botocore#1.34.151 ua/2.0 os/linux#6.6.87.2-microsoft-standard-WSL2 md/arch#x86_64 lang/python#3.12.3 md/pyimpl#CPython cfg/retry-mode#legacy Botocore/1.34.151', 'X-Amz-Date': b'20250816T182302Z', 'Authorization': b'AWS4-HMAC-SHA256 Credential=your_aws_access_key_id/20250816/us-west-2/bedrock/aws4_request, SignedHeaders=content-type;host;x-amz-date, Signature=71a2803dd772cd53da161b482df409ff7eca8fcaebacb59bd30140df7df2f5a2', 'amz-sdk-invocation-id': b'9f26734a-a9b3-44c6-8c40-8f62e6dc2f62', 'amz-sdk-request': b'attempt=1', 'Content-Length': '1468'}>
+2025-08-16 22:23:02,916 - DEBUG - Certificate path: /mnt/d/Github Projects/ClarQ-LLM/venv/lib/python3.12/site-packages/certifi/cacert.pem
+2025-08-16 22:23:03,234 - DEBUG - https://bedrock-runtime.us-west-2.amazonaws.com:443 "POST /model/meta.llama3-1-405b-instruct-v1%3A0/converse HTTP/1.1" 403 68
+2025-08-16 22:23:03,235 - DEBUG - Response headers: {'Date': 'Sat, 16 Aug 2025 18:23:03 GMT', 'Content-Type': 'application/json', 'Content-Length': '68', 'Connection': 'keep-alive', 'x-amzn-RequestId': '42e9ded8-6e2f-4286-a6c4-ef9ded54b7df', 'x-amzn-ErrorType': 'UnrecognizedClientException:http://internal.amazon.com/coral/com.amazon.coral.service/'}
+2025-08-16 22:23:03,235 - DEBUG - Response body:
+b'{"message":"The security token included in the request is invalid."}'
+2025-08-16 22:23:03,236 - DEBUG - Event needs-retry.bedrock-runtime.Converse: calling handler <botocore.retryhandler.RetryHandler object at 0x749df3ef9df0>
+2025-08-16 22:23:03,237 - DEBUG - No retry needed.

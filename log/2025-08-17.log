@@ -1,0 +1,269 @@
+2025-08-17 09:20:29,967 - DEBUG - Changing event name from creating-client-class.iot-data to creating-client-class.iot-data-plane
+2025-08-17 09:20:29,971 - DEBUG - Changing event name from before-call.apigateway to before-call.api-gateway
+2025-08-17 09:20:29,972 - DEBUG - Changing event name from request-created.machinelearning.Predict to request-created.machine-learning.Predict
+2025-08-17 09:20:29,975 - DEBUG - Changing event name from before-parameter-build.autoscaling.CreateLaunchConfiguration to before-parameter-build.auto-scaling.CreateLaunchConfiguration
+2025-08-17 09:20:29,976 - DEBUG - Changing event name from before-parameter-build.route53 to before-parameter-build.route-53
+2025-08-17 09:20:29,978 - DEBUG - Changing event name from request-created.cloudsearchdomain.Search to request-created.cloudsearch-domain.Search
+2025-08-17 09:20:29,980 - DEBUG - Changing event name from docs.*.autoscaling.CreateLaunchConfiguration.complete-section to docs.*.auto-scaling.CreateLaunchConfiguration.complete-section
+2025-08-17 09:20:29,985 - DEBUG - Changing event name from before-parameter-build.logs.CreateExportTask to before-parameter-build.cloudwatch-logs.CreateExportTask
+2025-08-17 09:20:29,986 - DEBUG - Changing event name from docs.*.logs.CreateExportTask.complete-section to docs.*.cloudwatch-logs.CreateExportTask.complete-section
+2025-08-17 09:20:29,987 - DEBUG - Changing event name from before-parameter-build.cloudsearchdomain.Search to before-parameter-build.cloudsearch-domain.Search
+2025-08-17 09:20:29,987 - DEBUG - Changing event name from docs.*.cloudsearchdomain.Search.complete-section to docs.*.cloudsearch-domain.Search.complete-section
+2025-08-17 09:20:29,988 - DEBUG - Setting config variable for region to 'us-west-2'
+2025-08-17 09:20:30,061 - DEBUG - Loading JSON file: /mnt/d/Github Projects/ClarQ-LLM/venv/lib/python3.12/site-packages/botocore/data/endpoints.json
+2025-08-17 09:20:30,128 - DEBUG - Loading JSON file: /mnt/d/Github Projects/ClarQ-LLM/venv/lib/python3.12/site-packages/botocore/data/sdk-default-configuration.json
+2025-08-17 09:20:30,129 - DEBUG - Event choose-service-name: calling handler <function handle_service_name_alias at 0x769ecc055080>
+2025-08-17 09:20:39,858 - DEBUG - Loading JSON file: /mnt/d/Github Projects/ClarQ-LLM/venv/lib/python3.12/site-packages/botocore/data/bedrock-runtime/2023-09-30/service-2.json.gz
+2025-08-17 09:20:47,551 - DEBUG - Loading JSON file: /mnt/d/Github Projects/ClarQ-LLM/venv/lib/python3.12/site-packages/botocore/data/bedrock-runtime/2023-09-30/endpoint-rule-set-1.json.gz
+2025-08-17 09:20:47,623 - DEBUG - Loading JSON file: /mnt/d/Github Projects/ClarQ-LLM/venv/lib/python3.12/site-packages/botocore/data/partitions.json
+2025-08-17 09:20:47,625 - DEBUG - Event creating-client-class.bedrock-runtime: calling handler <function add_generate_presigned_url at 0x769ecbfbdbc0>
+2025-08-17 09:20:47,626 - DEBUG - Looking for endpoint for bedrock-runtime via: environment_service
+2025-08-17 09:20:47,627 - DEBUG - Looking for endpoint for bedrock-runtime via: environment_global
+2025-08-17 09:20:47,627 - DEBUG - Looking for endpoint for bedrock-runtime via: config_service
+2025-08-17 09:20:47,628 - DEBUG - Looking for endpoint for bedrock-runtime via: config_global
+2025-08-17 09:20:47,629 - DEBUG - No configured endpoint found.
+2025-08-17 09:20:47,629 - DEBUG - Creating a regex based endpoint for bedrock-runtime, us-west-2
+2025-08-17 09:20:47,633 - DEBUG - Setting bedrock-runtime timeout as (60, 60)
+2025-08-17 09:20:47,673 - DEBUG - Loading JSON file: /mnt/d/Github Projects/ClarQ-LLM/venv/lib/python3.12/site-packages/botocore/data/_retry.json
+2025-08-17 09:20:47,675 - DEBUG - Registering retry handlers for service: bedrock-runtime
+2025-08-17 09:20:52,052 - DEBUG - Changing event name from creating-client-class.iot-data to creating-client-class.iot-data-plane
+2025-08-17 09:20:52,055 - DEBUG - Changing event name from before-call.apigateway to before-call.api-gateway
+2025-08-17 09:20:52,057 - DEBUG - Changing event name from request-created.machinelearning.Predict to request-created.machine-learning.Predict
+2025-08-17 09:20:52,059 - DEBUG - Changing event name from before-parameter-build.autoscaling.CreateLaunchConfiguration to before-parameter-build.auto-scaling.CreateLaunchConfiguration
+2025-08-17 09:20:52,060 - DEBUG - Changing event name from before-parameter-build.route53 to before-parameter-build.route-53
+2025-08-17 09:20:52,062 - DEBUG - Changing event name from request-created.cloudsearchdomain.Search to request-created.cloudsearch-domain.Search
+2025-08-17 09:20:52,063 - DEBUG - Changing event name from docs.*.autoscaling.CreateLaunchConfiguration.complete-section to docs.*.auto-scaling.CreateLaunchConfiguration.complete-section
+2025-08-17 09:20:52,067 - DEBUG - Changing event name from before-parameter-build.logs.CreateExportTask to before-parameter-build.cloudwatch-logs.CreateExportTask
+2025-08-17 09:20:52,068 - DEBUG - Changing event name from docs.*.logs.CreateExportTask.complete-section to docs.*.cloudwatch-logs.CreateExportTask.complete-section
+2025-08-17 09:20:52,069 - DEBUG - Changing event name from before-parameter-build.cloudsearchdomain.Search to before-parameter-build.cloudsearch-domain.Search
+2025-08-17 09:20:52,069 - DEBUG - Changing event name from docs.*.cloudsearchdomain.Search.complete-section to docs.*.cloudsearch-domain.Search.complete-section
+2025-08-17 09:20:52,070 - DEBUG - Setting config variable for region to 'us-west-2'
+2025-08-17 09:20:52,117 - DEBUG - Loading JSON file: /mnt/d/Github Projects/ClarQ-LLM/venv/lib/python3.12/site-packages/botocore/data/endpoints.json
+2025-08-17 09:20:52,168 - DEBUG - Loading JSON file: /mnt/d/Github Projects/ClarQ-LLM/venv/lib/python3.12/site-packages/botocore/data/sdk-default-configuration.json
+2025-08-17 09:20:52,169 - DEBUG - Event choose-service-name: calling handler <function handle_service_name_alias at 0x769ecc055080>
+2025-08-17 09:21:02,021 - DEBUG - Loading JSON file: /mnt/d/Github Projects/ClarQ-LLM/venv/lib/python3.12/site-packages/botocore/data/bedrock-runtime/2023-09-30/service-2.json.gz
+2025-08-17 09:21:13,562 - DEBUG - Loading JSON file: /mnt/d/Github Projects/ClarQ-LLM/venv/lib/python3.12/site-packages/botocore/data/bedrock-runtime/2023-09-30/endpoint-rule-set-1.json.gz
+2025-08-17 09:21:13,605 - DEBUG - Loading JSON file: /mnt/d/Github Projects/ClarQ-LLM/venv/lib/python3.12/site-packages/botocore/data/partitions.json
+2025-08-17 09:21:13,606 - DEBUG - Event creating-client-class.bedrock-runtime: calling handler <function add_generate_presigned_url at 0x769ecbfbdbc0>
+2025-08-17 09:21:13,607 - DEBUG - Looking for endpoint for bedrock-runtime via: environment_service
+2025-08-17 09:21:13,607 - DEBUG - Looking for endpoint for bedrock-runtime via: environment_global
+2025-08-17 09:21:13,608 - DEBUG - Looking for endpoint for bedrock-runtime via: config_service
+2025-08-17 09:21:13,608 - DEBUG - Looking for endpoint for bedrock-runtime via: config_global
+2025-08-17 09:21:13,609 - DEBUG - No configured endpoint found.
+2025-08-17 09:21:13,609 - DEBUG - Creating a regex based endpoint for bedrock-runtime, us-west-2
+2025-08-17 09:21:13,612 - DEBUG - Setting bedrock-runtime timeout as (60, 60)
+2025-08-17 09:21:13,631 - DEBUG - Loading JSON file: /mnt/d/Github Projects/ClarQ-LLM/venv/lib/python3.12/site-packages/botocore/data/_retry.json
+2025-08-17 09:21:13,632 - DEBUG - Registering retry handlers for service: bedrock-runtime
+2025-08-17 09:21:13,639 - DEBUG - Event before-parameter-build.bedrock-runtime.Converse: calling handler <function generate_idempotent_uuid at 0x769ecc056f20>
+2025-08-17 09:21:13,640 - DEBUG - Calling endpoint provider with parameters: {'Region': 'us-west-2', 'UseDualStack': False, 'UseFIPS': False}
+2025-08-17 09:21:13,642 - DEBUG - Endpoint provider result: https://bedrock-runtime.us-west-2.amazonaws.com
+2025-08-17 09:21:13,644 - DEBUG - Event before-call.bedrock-runtime.Converse: calling handler <function add_recursion_detection_header at 0x769ecc055da0>
+2025-08-17 09:21:13,644 - DEBUG - Event before-call.bedrock-runtime.Converse: calling handler <function inject_api_version_header_if_needed at 0x769ecc07ca40>
+2025-08-17 09:21:13,645 - DEBUG - Making request for OperationModel(name=Converse) with params: {'url_path': '/model/meta.llama3-1-405b-instruct-v1%3A0/converse', 'query_string': {}, 'method': 'POST', 'headers': {'Content-Type': 'application/json', 'User-Agent': 'Boto3/1.34.151 md/Botocore#1.34.151 ua/2.0 os/linux#6.6.87.2-microsoft-standard-WSL2 md/arch#x86_64 lang/python#3.12.3 md/pyimpl#CPython cfg/retry-mode#legacy Botocore/1.34.151'}, 'body': b'{"messages": [{"role": "user", "content": [{"text": "Jax: what can help you?"}]}], "system": [{"text": "You are a adventurer in a game. You need to talk to Jax to find out how to complete the task of collect rubies based on your existing items and skills.\\n\\nYou have a backpack containing the following items:\\nAn air sucker\\n\\nYou can use/do the following skills/actions:\\nSummon the excavator to dig\\nSummon the small shovel to dig\\n\\nAdditionally, unless explicitly restricted, you can visit the following scenes in the game:\\nWest Mine (The monsters in this scene won\'t let you in)\\nNorth Mine (The monsters in this scene won\'t let you in)\\nMiasma Forest\\nMist Forest\\nFantasy Forest\\nPrimeval Forest\\n\\nYour task is to ask Jax how to complete the task of collect rubies based on these scenes, and your items and skills/actions. If Jax\'s answer is unclear or ambiguity, you need to ask clarification questions to understand his intentions and gather enough information to complete the task. Note that based on the above scenes, your items and your skills/actions will definitely allow you to complete the task of collect rubies. Once you figure out how to complete the task, say \\"goodbye\\" to Jax to end your conversation.\\nRemember, you are a adventurer, please talk to Jax and ask him questions to find the specific steps to complete the task."}], "inferenceConfig": {"maxTokens": 512, "temperature": 1e-05, "topP": 0.9999}, "additionalModelRequestFields": {}}', 'url': 'https://bedrock-runtime.us-west-2.amazonaws.com/model/meta.llama3-1-405b-instruct-v1%3A0/converse', 'context': {'client_region': 'us-west-2', 'client_config': <botocore.config.Config object at 0x769ecc013800>, 'has_streaming_input': False, 'auth_type': None}}
+2025-08-17 09:21:13,646 - DEBUG - Event request-created.bedrock-runtime.Converse: calling handler <bound method RequestSigner.handler of <botocore.signers.RequestSigner object at 0x769ecb890170>>
+2025-08-17 09:21:13,647 - DEBUG - Event choose-signer.bedrock-runtime.Converse: calling handler <function set_operation_specific_signer at 0x769ecc056de0>
+2025-08-17 09:21:13,648 - DEBUG - Calculating signature using v4 auth.
+2025-08-17 09:21:13,649 - DEBUG - CanonicalRequest:
+POST
+/model/meta.llama3-1-405b-instruct-v1%253A0/converse
+
+content-type:application/json
+host:bedrock-runtime.us-west-2.amazonaws.com
+x-amz-date:20250817T052113Z
+
+content-type;host;x-amz-date
+992363b2fe4fdedac425190f46fdef790b9b9129600ff2f84d9927132e2568a5
+2025-08-17 09:21:13,649 - DEBUG - StringToSign:
+AWS4-HMAC-SHA256
+20250817T052113Z
+20250817/us-west-2/bedrock/aws4_request
+a484ca828c87ae926898455661d405890f496a80a29617f6fbc5745211d5275e
+2025-08-17 09:21:13,650 - DEBUG - Signature:
+a2d62869a35662427eb7a8e21189d9577c3e9535c8b3c6f4c433e34aae4c4f9a
+2025-08-17 09:21:13,651 - DEBUG - Event request-created.bedrock-runtime.Converse: calling handler <function add_retry_headers at 0x769ecc07d260>
+2025-08-17 09:21:13,651 - DEBUG - Sending http request: <AWSPreparedRequest stream_output=False, method=POST, url=https://bedrock-runtime.us-west-2.amazonaws.com/model/meta.llama3-1-405b-instruct-v1%3A0/converse, headers={'Content-Type': b'application/json', 'User-Agent': b'Boto3/1.34.151 md/Botocore#1.34.151 ua/2.0 os/linux#6.6.87.2-microsoft-standard-WSL2 md/arch#x86_64 lang/python#3.12.3 md/pyimpl#CPython cfg/retry-mode#legacy Botocore/1.34.151', 'X-Amz-Date': b'20250817T052113Z', 'Authorization': b'AWS4-HMAC-SHA256 Credential=your_aws_access_key_id/20250817/us-west-2/bedrock/aws4_request, SignedHeaders=content-type;host;x-amz-date, Signature=a2d62869a35662427eb7a8e21189d9577c3e9535c8b3c6f4c433e34aae4c4f9a', 'amz-sdk-invocation-id': b'0ab69627-85da-48d5-b487-906757fe7a7f', 'amz-sdk-request': b'attempt=1', 'Content-Length': '1468'}>
+2025-08-17 09:21:13,653 - DEBUG - Certificate path: /mnt/d/Github Projects/ClarQ-LLM/venv/lib/python3.12/site-packages/certifi/cacert.pem
+2025-08-17 09:21:13,654 - DEBUG - Starting new HTTPS connection (1): bedrock-runtime.us-west-2.amazonaws.com:443
+2025-08-17 09:21:16,504 - DEBUG - https://bedrock-runtime.us-west-2.amazonaws.com:443 "POST /model/meta.llama3-1-405b-instruct-v1%3A0/converse HTTP/1.1" 403 68
+2025-08-17 09:21:16,505 - DEBUG - Response headers: {'Date': 'Sun, 17 Aug 2025 05:21:16 GMT', 'Content-Type': 'application/json', 'Content-Length': '68', 'Connection': 'keep-alive', 'x-amzn-RequestId': '2404667f-8cb1-405e-ac4b-2ed6aeeb41cd', 'x-amzn-ErrorType': 'UnrecognizedClientException:http://internal.amazon.com/coral/com.amazon.coral.service/'}
+2025-08-17 09:21:16,506 - DEBUG - Response body:
+b'{"message":"The security token included in the request is invalid."}'
+2025-08-17 09:21:16,507 - DEBUG - Event needs-retry.bedrock-runtime.Converse: calling handler <botocore.retryhandler.RetryHandler object at 0x769ecb891e80>
+2025-08-17 09:21:16,508 - DEBUG - No retry needed.
+2025-08-17 09:21:26,510 - DEBUG - Event before-parameter-build.bedrock-runtime.Converse: calling handler <function generate_idempotent_uuid at 0x769ecc056f20>
+2025-08-17 09:21:26,511 - DEBUG - Calling endpoint provider with parameters: {'Region': 'us-west-2', 'UseDualStack': False, 'UseFIPS': False}
+2025-08-17 09:21:26,512 - DEBUG - Endpoint provider result: https://bedrock-runtime.us-west-2.amazonaws.com
+2025-08-17 09:21:26,513 - DEBUG - Event before-call.bedrock-runtime.Converse: calling handler <function add_recursion_detection_header at 0x769ecc055da0>
+2025-08-17 09:21:26,514 - DEBUG - Event before-call.bedrock-runtime.Converse: calling handler <function inject_api_version_header_if_needed at 0x769ecc07ca40>
+2025-08-17 09:21:26,514 - DEBUG - Making request for OperationModel(name=Converse) with params: {'url_path': '/model/meta.llama3-1-405b-instruct-v1%3A0/converse', 'query_string': {}, 'method': 'POST', 'headers': {'Content-Type': 'application/json', 'User-Agent': 'Boto3/1.34.151 md/Botocore#1.34.151 ua/2.0 os/linux#6.6.87.2-microsoft-standard-WSL2 md/arch#x86_64 lang/python#3.12.3 md/pyimpl#CPython cfg/retry-mode#legacy Botocore/1.34.151'}, 'body': b'{"messages": [{"role": "user", "content": [{"text": "Jax: what can help you?"}]}], "system": [{"text": "You are a adventurer in a game. You need to talk to Jax to find out how to complete the task of collect rubies based on your existing items and skills.\\n\\nYou have a backpack containing the following items:\\nAn air sucker\\n\\nYou can use/do the following skills/actions:\\nSummon the excavator to dig\\nSummon the small shovel to dig\\n\\nAdditionally, unless explicitly restricted, you can visit the following scenes in the game:\\nWest Mine (The monsters in this scene won\'t let you in)\\nNorth Mine (The monsters in this scene won\'t let you in)\\nMiasma Forest\\nMist Forest\\nFantasy Forest\\nPrimeval Forest\\n\\nYour task is to ask Jax how to complete the task of collect rubies based on these scenes, and your items and skills/actions. If Jax\'s answer is unclear or ambiguity, you need to ask clarification questions to understand his intentions and gather enough information to complete the task. Note that based on the above scenes, your items and your skills/actions will definitely allow you to complete the task of collect rubies. Once you figure out how to complete the task, say \\"goodbye\\" to Jax to end your conversation.\\nRemember, you are a adventurer, please talk to Jax and ask him questions to find the specific steps to complete the task."}], "inferenceConfig": {"maxTokens": 512, "temperature": 1e-05, "topP": 0.9999}, "additionalModelRequestFields": {}}', 'url': 'https://bedrock-runtime.us-west-2.amazonaws.com/model/meta.llama3-1-405b-instruct-v1%3A0/converse', 'context': {'client_region': 'us-west-2', 'client_config': <botocore.config.Config object at 0x769ecc013800>, 'has_streaming_input': False, 'auth_type': None}}
+2025-08-17 09:21:26,515 - DEBUG - Event request-created.bedrock-runtime.Converse: calling handler <bound method RequestSigner.handler of <botocore.signers.RequestSigner object at 0x769ecb890170>>
+2025-08-17 09:21:26,516 - DEBUG - Event choose-signer.bedrock-runtime.Converse: calling handler <function set_operation_specific_signer at 0x769ecc056de0>
+2025-08-17 09:21:26,516 - DEBUG - Calculating signature using v4 auth.
+2025-08-17 09:21:26,517 - DEBUG - CanonicalRequest:
+POST
+/model/meta.llama3-1-405b-instruct-v1%253A0/converse
+
+content-type:application/json
+host:bedrock-runtime.us-west-2.amazonaws.com
+x-amz-date:20250817T052126Z
+
+content-type;host;x-amz-date
+992363b2fe4fdedac425190f46fdef790b9b9129600ff2f84d9927132e2568a5
+2025-08-17 09:21:26,517 - DEBUG - StringToSign:
+AWS4-HMAC-SHA256
+20250817T052126Z
+20250817/us-west-2/bedrock/aws4_request
+20074f7252c19d8985fc070331c6054aaea6f7ba5b580855398cb4a9eadd612b
+2025-08-17 09:21:26,518 - DEBUG - Signature:
+04fddc70e58437c2a8b415e20bf506cf7d5a136501ab2b7c4412398182fb83df
+2025-08-17 09:21:26,519 - DEBUG - Event request-created.bedrock-runtime.Converse: calling handler <function add_retry_headers at 0x769ecc07d260>
+2025-08-17 09:21:26,519 - DEBUG - Sending http request: <AWSPreparedRequest stream_output=False, method=POST, url=https://bedrock-runtime.us-west-2.amazonaws.com/model/meta.llama3-1-405b-instruct-v1%3A0/converse, headers={'Content-Type': b'application/json', 'User-Agent': b'Boto3/1.34.151 md/Botocore#1.34.151 ua/2.0 os/linux#6.6.87.2-microsoft-standard-WSL2 md/arch#x86_64 lang/python#3.12.3 md/pyimpl#CPython cfg/retry-mode#legacy Botocore/1.34.151', 'X-Amz-Date': b'20250817T052126Z', 'Authorization': b'AWS4-HMAC-SHA256 Credential=your_aws_access_key_id/20250817/us-west-2/bedrock/aws4_request, SignedHeaders=content-type;host;x-amz-date, Signature=04fddc70e58437c2a8b415e20bf506cf7d5a136501ab2b7c4412398182fb83df', 'amz-sdk-invocation-id': b'9e17844c-013a-44df-99b7-7173b312efa9', 'amz-sdk-request': b'attempt=1', 'Content-Length': '1468'}>
+2025-08-17 09:21:26,520 - DEBUG - Certificate path: /mnt/d/Github Projects/ClarQ-LLM/venv/lib/python3.12/site-packages/certifi/cacert.pem
+2025-08-17 09:21:26,897 - DEBUG - https://bedrock-runtime.us-west-2.amazonaws.com:443 "POST /model/meta.llama3-1-405b-instruct-v1%3A0/converse HTTP/1.1" 403 68
+2025-08-17 09:21:26,899 - DEBUG - Response headers: {'Date': 'Sun, 17 Aug 2025 05:21:26 GMT', 'Content-Type': 'application/json', 'Content-Length': '68', 'Connection': 'keep-alive', 'x-amzn-RequestId': '7ff5b3da-9d87-43cb-96d9-77b6d91465ce', 'x-amzn-ErrorType': 'UnrecognizedClientException:http://internal.amazon.com/coral/com.amazon.coral.service/'}
+2025-08-17 09:21:26,899 - DEBUG - Response body:
+b'{"message":"The security token included in the request is invalid."}'
+2025-08-17 09:21:26,900 - DEBUG - Event needs-retry.bedrock-runtime.Converse: calling handler <botocore.retryhandler.RetryHandler object at 0x769ecb891e80>
+2025-08-17 09:21:26,900 - DEBUG - No retry needed.
+2025-08-17 09:24:48,594 - DEBUG - Request options: {'method': 'post', 'url': '/chat/completions', 'files': None, 'idempotency_key': 'stainless-python-retry-e3bc49bd-3e2c-4094-898a-0fe3abc370e7', 'json_data': {'messages': [{'role': 'user', 'content': "Does adventurer acknowledge that there are multiple mines and raise a clarification question to inquire which mines adventurer should choose? If adventurer has inquired this, then Jax's response can precisely answer part of adventurer's question.\n\nadventurer's questions:\nadventurer: Thank you, Jax. However, the West Mine and the North Mine are guarded by monsters that won't let me in. Is there another location where I can dig for rubies, or is there a way to access these mines despite the monsters?\n\nJax's response:\nJax: You should go to the North Mine, as only the North Mine has rubies.\n\nPurpose of Jax's response:\nThere are two mines in the game scenario, and the previous response did not specify which mine to dig for the ruby. This response addresses the question of which mine to go to, specifying that it should be the North Mine and not the West Mine. Note: Use this response only if the other party has noticed that there are multiple mines and is unsure which one to go.\n\nDoes adventurer acknowledge that there are multiple mines and raise a clarification question to inquire which mines adventurer should choose or what types of mines should adventurer choose? Sometimes, adventurer mentions the multiple mines but does not ask for clarification, making Jax's response inappropriate. If adventurer has inquired about this, then Jax's response can precisely answer part of adventurer's question.\nReturn a JSON object with two keys: an 'analysis' key and an 'answerable' key. The 'analysis' key contains a string that analyzes whether adventurer acknowledges multiple mines needing clarification. The 'answerable' key contains a boolean value: false indicates that adventurer does not acknowledge this and Jax's response should not be used to reply to adventurer's questions, while true indicates the opposite.The format is as follows: { 'analysis': '', 'answerable': false }."}], 'model': 'gpt-4o-2024-05-13', 'response_format': {'type': 'json_object'}, 'seed': 8848, 'stop': None, 'temperature': 0}}
+2025-08-17 09:24:48,605 - DEBUG - Sending HTTP Request: POST https://api.openai.com/v1/chat/completions
+2025-08-17 09:24:48,606 - DEBUG - connect_tcp.started host='api.openai.com' port=443 local_address=None timeout=5.0 socket_options=None
+2025-08-17 09:24:48,846 - DEBUG - connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x7ebbdb92ce60>
+2025-08-17 09:24:48,847 - DEBUG - start_tls.started ssl_context=<ssl.SSLContext object at 0x7ebbdbf94550> server_hostname='api.openai.com' timeout=5.0
+2025-08-17 09:24:53,859 - DEBUG - start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x7ebbdb85b5c0>
+2025-08-17 09:24:53,860 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2025-08-17 09:24:53,861 - DEBUG - send_request_headers.complete
+2025-08-17 09:24:53,862 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2025-08-17 09:24:53,863 - DEBUG - send_request_body.complete
+2025-08-17 09:24:53,864 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2025-08-17 09:24:54,111 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 401, b'Unauthorized', [(b'Date', b'Sun, 17 Aug 2025 05:24:54 GMT'), (b'Content-Type', b'application/json; charset=utf-8'), (b'Content-Length', b'269'), (b'Connection', b'keep-alive'), (b'vary', b'Origin'), (b'x-request-id', b'req_bc699655ccc64fb0ae162b950f26c477'), (b'x-envoy-upstream-service-time', b'2'), (b'cf-cache-status', b'DYNAMIC'), (b'Set-Cookie', b'__cf_bm=Sv4dXOzxXwnv36bvX3mPsMz.nfu7Tph.eO5727K0yQc-1755408294-1.0.1.1-dgv.1t4tH3vWqsMugiqcVr9hXqcw23ZnaJsf9I3d1WIB0umkg6vG0_pPqQ9yBEYX1j774sLIaIQFqlbw3PzLSxbtwT1ESCxdkprbCfs3Gvg; path=/; expires=Sun, 17-Aug-25 05:54:54 GMT; domain=.api.openai.com; HttpOnly; Secure; SameSite=None'), (b'Strict-Transport-Security', b'max-age=31536000; includeSubDomains; preload'), (b'X-Content-Type-Options', b'nosniff'), (b'Set-Cookie', b'_cfuvid=qhJZF2xA0H0XxGzliZBzhge6E4GU384wIqQm83_z9d8-1755408294007-0.0.1.1-604800000; path=/; domain=.api.openai.com; HttpOnly; Secure; SameSite=None'), (b'Server', b'cloudflare'), (b'CF-RAY', b'9706bf6ca82a14bd-AMS'), (b'alt-svc', b'h3=":443"; ma=86400')])
+2025-08-17 09:24:54,114 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-08-17 09:24:54,114 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2025-08-17 09:24:54,115 - DEBUG - receive_response_body.complete
+2025-08-17 09:24:54,116 - DEBUG - response_closed.started
+2025-08-17 09:24:54,117 - DEBUG - response_closed.complete
+2025-08-17 09:24:54,117 - DEBUG - HTTP Response: POST https://api.openai.com/v1/chat/completions "401 Unauthorized" Headers([('date', 'Sun, 17 Aug 2025 05:24:54 GMT'), ('content-type', 'application/json; charset=utf-8'), ('content-length', '269'), ('connection', 'keep-alive'), ('vary', 'Origin'), ('x-request-id', 'req_bc699655ccc64fb0ae162b950f26c477'), ('x-envoy-upstream-service-time', '2'), ('cf-cache-status', 'DYNAMIC'), ('set-cookie', '__cf_bm=Sv4dXOzxXwnv36bvX3mPsMz.nfu7Tph.eO5727K0yQc-1755408294-1.0.1.1-dgv.1t4tH3vWqsMugiqcVr9hXqcw23ZnaJsf9I3d1WIB0umkg6vG0_pPqQ9yBEYX1j774sLIaIQFqlbw3PzLSxbtwT1ESCxdkprbCfs3Gvg; path=/; expires=Sun, 17-Aug-25 05:54:54 GMT; domain=.api.openai.com; HttpOnly; Secure; SameSite=None'), ('strict-transport-security', 'max-age=31536000; includeSubDomains; preload'), ('x-content-type-options', 'nosniff'), ('set-cookie', '_cfuvid=qhJZF2xA0H0XxGzliZBzhge6E4GU384wIqQm83_z9d8-1755408294007-0.0.1.1-604800000; path=/; domain=.api.openai.com; HttpOnly; Secure; SameSite=None'), ('server', 'cloudflare'), ('cf-ray', '9706bf6ca82a14bd-AMS'), ('alt-svc', 'h3=":443"; ma=86400')])
+2025-08-17 09:24:54,118 - DEBUG - request_id: req_bc699655ccc64fb0ae162b950f26c477
+2025-08-17 09:24:54,119 - DEBUG - Encountered httpx.HTTPStatusError
+Traceback (most recent call last):
+  File "/mnt/d/Github Projects/ClarQ-LLM/venv/lib/python3.12/site-packages/openai/_base_client.py", line 1027, in request
+    response.raise_for_status()
+  File "/mnt/d/Github Projects/ClarQ-LLM/venv/lib/python3.12/site-packages/httpx/_models.py", line 829, in raise_for_status
+    raise HTTPStatusError(message, request=request, response=self)
+httpx.HTTPStatusError: Client error '401 Unauthorized' for url 'https://api.openai.com/v1/chat/completions'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/401
+2025-08-17 09:24:54,196 - DEBUG - Not retrying
+2025-08-17 09:24:54,197 - DEBUG - Re-raising status error
+2025-08-17 09:24:59,200 - DEBUG - Request options: {'method': 'post', 'url': '/chat/completions', 'files': None, 'idempotency_key': 'stainless-python-retry-4326a0dc-5a30-4c13-b345-c6d413b306a8', 'json_data': {'messages': [{'role': 'user', 'content': "Does adventurer acknowledge that there are multiple mines and raise a clarification question to inquire which mines adventurer should choose? If adventurer has inquired this, then Jax's response can precisely answer part of adventurer's question.\n\nadventurer's questions:\nadventurer: Thank you, Jax. However, the West Mine and the North Mine are guarded by monsters that won't let me in. Is there another location where I can dig for rubies, or is there a way to access these mines despite the monsters?\n\nJax's response:\nJax: You should go to the North Mine, as only the North Mine has rubies.\n\nPurpose of Jax's response:\nThere are two mines in the game scenario, and the previous response did not specify which mine to dig for the ruby. This response addresses the question of which mine to go to, specifying that it should be the North Mine and not the West Mine. Note: Use this response only if the other party has noticed that there are multiple mines and is unsure which one to go.\n\nDoes adventurer acknowledge that there are multiple mines and raise a clarification question to inquire which mines adventurer should choose or what types of mines should adventurer choose? Sometimes, adventurer mentions the multiple mines but does not ask for clarification, making Jax's response inappropriate. If adventurer has inquired about this, then Jax's response can precisely answer part of adventurer's question.\nReturn a JSON object with two keys: an 'analysis' key and an 'answerable' key. The 'analysis' key contains a string that analyzes whether adventurer acknowledges multiple mines needing clarification. The 'answerable' key contains a boolean value: false indicates that adventurer does not acknowledge this and Jax's response should not be used to reply to adventurer's questions, while true indicates the opposite.The format is as follows: { 'analysis': '', 'answerable': false }."}], 'model': 'gpt-4o-2024-05-13', 'response_format': {'type': 'json_object'}, 'seed': 8848, 'stop': None, 'temperature': 0}}
+2025-08-17 09:24:59,203 - DEBUG - Sending HTTP Request: POST https://api.openai.com/v1/chat/completions
+2025-08-17 09:24:59,204 - DEBUG - close.started
+2025-08-17 09:24:59,205 - DEBUG - close.complete
+2025-08-17 09:24:59,206 - DEBUG - connect_tcp.started host='api.openai.com' port=443 local_address=None timeout=5.0 socket_options=None
+2025-08-17 09:24:59,413 - DEBUG - connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x7ebbdb92f680>
+2025-08-17 09:24:59,414 - DEBUG - start_tls.started ssl_context=<ssl.SSLContext object at 0x7ebbdbf94550> server_hostname='api.openai.com' timeout=5.0
+2025-08-17 09:25:04,423 - DEBUG - start_tls.failed exception=ConnectTimeout(TimeoutError('_ssl.c:983: The handshake operation timed out'))
+2025-08-17 09:25:04,428 - DEBUG - Encountered httpx.TimeoutException
+Traceback (most recent call last):
+  File "/mnt/d/Github Projects/ClarQ-LLM/venv/lib/python3.12/site-packages/httpx/_transports/default.py", line 101, in map_httpcore_exceptions
+    yield
+  File "/mnt/d/Github Projects/ClarQ-LLM/venv/lib/python3.12/site-packages/httpx/_transports/default.py", line 250, in handle_request
+    resp = self._pool.handle_request(req)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/d/Github Projects/ClarQ-LLM/venv/lib/python3.12/site-packages/httpcore/_sync/connection_pool.py", line 256, in handle_request
+    raise exc from None
+  File "/mnt/d/Github Projects/ClarQ-LLM/venv/lib/python3.12/site-packages/httpcore/_sync/connection_pool.py", line 236, in handle_request
+    response = connection.handle_request(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/d/Github Projects/ClarQ-LLM/venv/lib/python3.12/site-packages/httpcore/_sync/connection.py", line 101, in handle_request
+    raise exc
+  File "/mnt/d/Github Projects/ClarQ-LLM/venv/lib/python3.12/site-packages/httpcore/_sync/connection.py", line 78, in handle_request
+    stream = self._connect(request)
+             ^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/d/Github Projects/ClarQ-LLM/venv/lib/python3.12/site-packages/httpcore/_sync/connection.py", line 156, in _connect
+    stream = stream.start_tls(**kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/d/Github Projects/ClarQ-LLM/venv/lib/python3.12/site-packages/httpcore/_backends/sync.py", line 154, in start_tls
+    with map_exceptions(exc_map):
+  File "/usr/lib/python3.12/contextlib.py", line 158, in __exit__
+    self.gen.throw(value)
+  File "/mnt/d/Github Projects/ClarQ-LLM/venv/lib/python3.12/site-packages/httpcore/_exceptions.py", line 14, in map_exceptions
+    raise to_exc(exc) from exc
+httpcore.ConnectTimeout: _ssl.c:983: The handshake operation timed out
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/mnt/d/Github Projects/ClarQ-LLM/venv/lib/python3.12/site-packages/openai/_base_client.py", line 982, in request
+    response = self._client.send(
+               ^^^^^^^^^^^^^^^^^^
+  File "/mnt/d/Github Projects/ClarQ-LLM/venv/lib/python3.12/site-packages/httpx/_client.py", line 914, in send
+    response = self._send_handling_auth(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/d/Github Projects/ClarQ-LLM/venv/lib/python3.12/site-packages/httpx/_client.py", line 942, in _send_handling_auth
+    response = self._send_handling_redirects(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/d/Github Projects/ClarQ-LLM/venv/lib/python3.12/site-packages/httpx/_client.py", line 979, in _send_handling_redirects
+    response = self._send_single_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/d/Github Projects/ClarQ-LLM/venv/lib/python3.12/site-packages/httpx/_client.py", line 1014, in _send_single_request
+    response = transport.handle_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/d/Github Projects/ClarQ-LLM/venv/lib/python3.12/site-packages/httpx/_transports/default.py", line 249, in handle_request
+    with map_httpcore_exceptions():
+  File "/usr/lib/python3.12/contextlib.py", line 158, in __exit__
+    self.gen.throw(value)
+  File "/mnt/d/Github Projects/ClarQ-LLM/venv/lib/python3.12/site-packages/httpx/_transports/default.py", line 118, in map_httpcore_exceptions
+    raise mapped_exc(message) from exc
+httpx.ConnectTimeout: _ssl.c:983: The handshake operation timed out
+2025-08-17 09:25:04,631 - DEBUG - 2 retries left
+2025-08-17 09:25:04,632 - INFO - Retrying request to /chat/completions in 0.479711 seconds
+2025-08-17 09:25:05,114 - DEBUG - Request options: {'method': 'post', 'url': '/chat/completions', 'files': None, 'idempotency_key': 'stainless-python-retry-4326a0dc-5a30-4c13-b345-c6d413b306a8', 'json_data': {'messages': [{'role': 'user', 'content': "Does adventurer acknowledge that there are multiple mines and raise a clarification question to inquire which mines adventurer should choose? If adventurer has inquired this, then Jax's response can precisely answer part of adventurer's question.\n\nadventurer's questions:\nadventurer: Thank you, Jax. However, the West Mine and the North Mine are guarded by monsters that won't let me in. Is there another location where I can dig for rubies, or is there a way to access these mines despite the monsters?\n\nJax's response:\nJax: You should go to the North Mine, as only the North Mine has rubies.\n\nPurpose of Jax's response:\nThere are two mines in the game scenario, and the previous response did not specify which mine to dig for the ruby. This response addresses the question of which mine to go to, specifying that it should be the North Mine and not the West Mine. Note: Use this response only if the other party has noticed that there are multiple mines and is unsure which one to go.\n\nDoes adventurer acknowledge that there are multiple mines and raise a clarification question to inquire which mines adventurer should choose or what types of mines should adventurer choose? Sometimes, adventurer mentions the multiple mines but does not ask for clarification, making Jax's response inappropriate. If adventurer has inquired about this, then Jax's response can precisely answer part of adventurer's question.\nReturn a JSON object with two keys: an 'analysis' key and an 'answerable' key. The 'analysis' key contains a string that analyzes whether adventurer acknowledges multiple mines needing clarification. The 'answerable' key contains a boolean value: false indicates that adventurer does not acknowledge this and Jax's response should not be used to reply to adventurer's questions, while true indicates the opposite.The format is as follows: { 'analysis': '', 'answerable': false }."}], 'model': 'gpt-4o-2024-05-13', 'response_format': {'type': 'json_object'}, 'seed': 8848, 'stop': None, 'temperature': 0}}
+2025-08-17 09:25:05,116 - DEBUG - Sending HTTP Request: POST https://api.openai.com/v1/chat/completions
+2025-08-17 09:25:05,117 - DEBUG - connect_tcp.started host='api.openai.com' port=443 local_address=None timeout=5.0 socket_options=None
+2025-08-17 09:25:05,345 - DEBUG - connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x7ebbdb7dc6b0>
+2025-08-17 09:25:05,346 - DEBUG - start_tls.started ssl_context=<ssl.SSLContext object at 0x7ebbdbf94550> server_hostname='api.openai.com' timeout=5.0
+2025-08-17 09:25:05,454 - DEBUG - start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x7ebbdb7dc380>
+2025-08-17 09:25:05,455 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2025-08-17 09:25:05,456 - DEBUG - send_request_headers.complete
+2025-08-17 09:25:05,456 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2025-08-17 09:25:05,457 - DEBUG - send_request_body.complete
+2025-08-17 09:25:05,457 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2025-08-17 09:25:05,953 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 401, b'Unauthorized', [(b'Date', b'Sun, 17 Aug 2025 05:25:05 GMT'), (b'Content-Type', b'application/json; charset=utf-8'), (b'Content-Length', b'269'), (b'Connection', b'keep-alive'), (b'vary', b'Origin'), (b'x-request-id', b'req_e2c122e81b0248f2ac60028b669867cb'), (b'x-envoy-upstream-service-time', b'0'), (b'cf-cache-status', b'DYNAMIC'), (b'Strict-Transport-Security', b'max-age=31536000; includeSubDomains; preload'), (b'X-Content-Type-Options', b'nosniff'), (b'Server', b'cloudflare'), (b'CF-RAY', b'9706bfb4fe07c716-AMS'), (b'alt-svc', b'h3=":443"; ma=86400')])
+2025-08-17 09:25:05,954 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-08-17 09:25:05,955 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2025-08-17 09:25:05,956 - DEBUG - receive_response_body.complete
+2025-08-17 09:25:05,956 - DEBUG - response_closed.started
+2025-08-17 09:25:05,957 - DEBUG - response_closed.complete
+2025-08-17 09:25:05,958 - DEBUG - HTTP Response: POST https://api.openai.com/v1/chat/completions "401 Unauthorized" Headers({'date': 'Sun, 17 Aug 2025 05:25:05 GMT', 'content-type': 'application/json; charset=utf-8', 'content-length': '269', 'connection': 'keep-alive', 'vary': 'Origin', 'x-request-id': 'req_e2c122e81b0248f2ac60028b669867cb', 'x-envoy-upstream-service-time': '0', 'cf-cache-status': 'DYNAMIC', 'strict-transport-security': 'max-age=31536000; includeSubDomains; preload', 'x-content-type-options': 'nosniff', 'server': 'cloudflare', 'cf-ray': '9706bfb4fe07c716-AMS', 'alt-svc': 'h3=":443"; ma=86400'})
+2025-08-17 09:25:05,959 - DEBUG - request_id: req_e2c122e81b0248f2ac60028b669867cb
+2025-08-17 09:25:05,959 - DEBUG - Encountered httpx.HTTPStatusError
+Traceback (most recent call last):
+  File "/mnt/d/Github Projects/ClarQ-LLM/utils/llm.py", line 198, in request
+    completion = self.client.chat.completions.create(
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/d/Github Projects/ClarQ-LLM/venv/lib/python3.12/site-packages/openai/_utils/_utils.py", line 287, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/d/Github Projects/ClarQ-LLM/venv/lib/python3.12/site-packages/openai/resources/chat/completions/completions.py", line 1150, in create
+    return self._post(
+           ^^^^^^^^^^^
+  File "/mnt/d/Github Projects/ClarQ-LLM/venv/lib/python3.12/site-packages/openai/_base_client.py", line 1259, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/d/Github Projects/ClarQ-LLM/venv/lib/python3.12/site-packages/openai/_base_client.py", line 1047, in request
+    raise self._make_status_error_from_response(err.response) from None
+openai.AuthenticationError: Error code: 401 - {'error': {'message': 'Incorrect API key provided: your_ope*******_key. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/mnt/d/Github Projects/ClarQ-LLM/venv/lib/python3.12/site-packages/openai/_base_client.py", line 1027, in request
+    response.raise_for_status()
+  File "/mnt/d/Github Projects/ClarQ-LLM/venv/lib/python3.12/site-packages/httpx/_models.py", line 829, in raise_for_status
+    raise HTTPStatusError(message, request=request, response=self)
+httpx.HTTPStatusError: Client error '401 Unauthorized' for url 'https://api.openai.com/v1/chat/completions'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/401
+2025-08-17 09:25:06,111 - DEBUG - Not retrying
+2025-08-17 09:25:06,111 - DEBUG - Re-raising status error
+2025-08-17 09:25:06,348 - DEBUG - close.started
+2025-08-17 09:25:06,353 - DEBUG - close.complete

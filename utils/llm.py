@@ -24,8 +24,6 @@ class LLM:
                 self.cache = OrderedDict()
 
 
-
-
     def extract_json_string(self, input_string):
         def process_colons_string(input_string, colon_positions):
             def find_string_bounds(s, start_pos, next_pos=None):
@@ -165,7 +163,6 @@ class LLM:
         pass
 
 
-
 class ChatGPT(LLM):
     def __init__(self, name, cache = None) -> None:
         super().__init__(cache)
@@ -226,7 +223,6 @@ class ChatGPT(LLM):
         return completion.choices[0].message.content, message
 
 
-
 class QianFan(LLM):
     def __init__(self, name, cache = None) -> None:
         import qianfan
@@ -262,13 +258,12 @@ class QianFan(LLM):
         return completion.body['result'], message
 
 
-
-
 class LLAMA(LLM):
     def __init__(self, name, cache = None) -> None:
         import torch
         from transformers import LlamaForCausalLM
         from transformers import LlamaTokenizer
+        from transformers import AutoModelForCausalLM, AutoTokenizer
         
         # Set the seeds for reproducibility
         torch.cuda.manual_seed(8848)
@@ -288,7 +283,7 @@ class LLAMA(LLM):
                 k,v = w.split(":")
                 if k == "max_new_tokens":
                     self.max_new_tokens = int(v)
-        self.model = LlamaForCausalLM.from_pretrained(
+        self.model = AutoModelForCausalLM.from_pretrained(
             all_names[0],
             return_dict=True,
             load_in_8bit=False,
@@ -297,7 +292,7 @@ class LLAMA(LLM):
             torch_dtype=torch.bfloat16
             )
         self.model.eval()
-        self.tokenizer = LlamaTokenizer.from_pretrained(all_names[0])
+        self.tokenizer = AutoTokenizer.from_pretrained(all_names[0])
         self.tokenizer.pad_token = self.tokenizer.eos_token
         
 
@@ -449,3 +444,16 @@ class AWSBedrockLLAMA(LLM):
         message.append({"role": "assistant", "content": [{"text": response_text}]})
         
         return (self.extract_json_string(response_text), message) if 'json_format' in kwargs and kwargs['json_format'] else (response_text, message)
+
+
+class CustomLLM(LLM):
+    def __init__(self, name, cache = None) -> None:
+        super().__init__(cache)
+        self.model_name = name
+        # Custom initialization for your custom LLM
+        # This could be loading a model, setting up API keys, etc.
+    
+    def request(self, prompt, stop, **kwargs):
+        # Implement the request logic for your custom LLM
+        # This should return the response and any additional information needed
+        pass
