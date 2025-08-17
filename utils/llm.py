@@ -352,9 +352,6 @@ class LLAMA(LLM):
     
 
 
-
-
-
 class AWSBedrockLLAMA(LLM):
     def __init__(self, name, cache = None) -> None:
         super().__init__(cache)
@@ -449,11 +446,54 @@ class AWSBedrockLLAMA(LLM):
 class CustomLLM(LLM):
     def __init__(self, name, cache = None) -> None:
         super().__init__(cache)
+        name = name.lower()
         self.model_name = name
-        # Custom initialization for your custom LLM
-        # This could be loading a model, setting up API keys, etc.
-    
+        # openai.api_key = os.environ["OPENAI_API_KEY"]
+        client = OpenAI(
+            base_url="https://router.huggingface.co/v1",
+            api_key=os.environ["HF_TOKEN"],
+        )
+
+        
     def request(self, prompt, stop, **kwargs):
-        # Implement the request logic for your custom LLM
-        # This should return the response and any additional information needed
-        pass
+        message = [{
+                    "role": "user",
+                    "content": prompt
+                }]
+        if 'previous_message' in kwargs and kwargs['previous_message']:
+            message = kwargs['previous_message'].extend(message)
+            message = kwargs['previous_message']
+        json_format = True if 'json_format' in kwargs and kwargs['json_format'] else False
+
+        response = self.from_cache(message)
+        if response:
+            message.append({"role": "assistant", "content": response})
+            return response, message
+        
+        try:
+            completion = self.client.chat.completions.create(
+                model=self.model_name,
+                temperature=0,
+                messages=message,
+                stop = stop,
+                seed = 8848,
+                **({"response_format": {"type": "json_object"}} if json_format else {})
+            )
+            time.sleep(0.5)
+        except:
+            time.sleep(5)
+            completion = self.client.chat.completions.create(
+                model=self.model_name,
+                temperature=0,
+                messages=message,
+                stop = stop,
+                seed = 8848,
+                **({"response_format": {"type": "json_object"}} if json_format else {})
+            )
+            time.sleep(0.5)
+        super().log(message, completion.choices[0].message.content, model=completion.model, system_fingerprint = completion.system_fingerprint, usage = [completion.usage.prompt_tokens, completion.usage.completion_tokens, completion.usage.total_tokens])
+        self.save_to_cache(message, completion.choices[0].message.content)
+        
+        message.append({"role": "assistant", "content": completion.choices[0].message.content})
+        
+        return completion.choices[0].message.content, message
