@@ -1,0 +1,27 @@
+========================
+========================
+========================
+		LLM input:
+user:
+You are Jax, an information discernment expert, and you know that the solution to the collect rubies task is: 'You can go to the mine to dig for rubies.'. You need to determine whether what adventurer is saying to you is inquiring about information related to the collect rubies task?
+
+This is the previous conversation betweem you and adventurer:
+Jax: what can help you?
+adventurer: Where are the rubies?
+
+It is known that the solution to the collect rubies task is: You can go to the mine to dig for rubies.. You need to determine whether what adventurer is saying to you is inquiring about information related to the collect rubies task? Return a JSON object containing a 'related' key: the value (boolean type) of the 'related' key indicates whether adventurer has inquired about content related to the task. The format should be as follows: { 'related': True or False }.
+
+
+		LLM output:
+{ "related": true }
+
+		LLM Model:	accounts/fireworks/models/deepseek-v3
+
+		System Fingerprint:	None
+
+		Usage(Prompt, Completion, Total Tokens):	[200, 7, 207]
+========================
+========================
+========================
+
+

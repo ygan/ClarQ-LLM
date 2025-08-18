@@ -263,7 +263,6 @@ class LLAMA(LLM):
         import torch
         from transformers import LlamaForCausalLM
         from transformers import LlamaTokenizer
-        from transformers import AutoModelForCausalLM, AutoTokenizer
         
         # Set the seeds for reproducibility
         torch.cuda.manual_seed(8848)
@@ -283,7 +282,7 @@ class LLAMA(LLM):
                 k,v = w.split(":")
                 if k == "max_new_tokens":
                     self.max_new_tokens = int(v)
-        self.model = AutoModelForCausalLM.from_pretrained(
+        self.model = LlamaForCausalLM.from_pretrained(
             all_names[0],
             return_dict=True,
             load_in_8bit=False,
@@ -292,7 +291,7 @@ class LLAMA(LLM):
             torch_dtype=torch.bfloat16
             )
         self.model.eval()
-        self.tokenizer = AutoTokenizer.from_pretrained(all_names[0])
+        self.tokenizer = LlamaTokenizer.from_pretrained(all_names[0])
         self.tokenizer.pad_token = self.tokenizer.eos_token
         
 
@@ -446,10 +445,9 @@ class AWSBedrockLLAMA(LLM):
 class CustomLLM(LLM):
     def __init__(self, name, cache = None) -> None:
         super().__init__(cache)
-        name = name.lower()
         self.model_name = name
         # openai.api_key = os.environ["OPENAI_API_KEY"]
-        client = OpenAI(
+        self.client = OpenAI(
             base_url="https://router.huggingface.co/v1",
             api_key=os.environ["HF_TOKEN"],
         )
@@ -476,7 +474,7 @@ class CustomLLM(LLM):
                 temperature=0,
                 messages=message,
                 stop = stop,
-                seed = 8848,
+                # seed = 8848,
                 **({"response_format": {"type": "json_object"}} if json_format else {})
             )
             time.sleep(0.5)
@@ -487,7 +485,7 @@ class CustomLLM(LLM):
                 temperature=0,
                 messages=message,
                 stop = stop,
-                seed = 8848,
+                # seed = 8848,
                 **({"response_format": {"type": "json_object"}} if json_format else {})
             )
             time.sleep(0.5)

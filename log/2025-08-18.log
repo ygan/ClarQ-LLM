@@ -1,0 +1,248 @@
+2025-08-18 16:43:23,406 - DEBUG - Request options: {'method': 'post', 'url': '/chat/completions', 'files': None, 'idempotency_key': 'stainless-python-retry-c242ea2e-6946-494c-9d75-741ac763f88b', 'json_data': {'messages': [{'role': 'user', 'content': "You are Jax, an information discernment expert, and you know that the solution to the collect rubies task is: 'You can go to the mine to dig for rubies.'. You need to determine whether what adventurer is saying to you is inquiring about information related to the collect rubies task?\n\nThis is the previous conversation betweem you and adventurer:\nJax: what can help you?\nadventurer: Where are the rubies?\n\nIt is known that the solution to the collect rubies task is: You can go to the mine to dig for rubies.. You need to determine whether what adventurer is saying to you is inquiring about information related to the collect rubies task? Return a JSON object containing a 'related' key: the value (boolean type) of the 'related' key indicates whether adventurer has inquired about content related to the task. The format should be as follows: { 'related': True or False }."}], 'model': 'deepseek-ai/DeepSeek-V3', 'response_format': {'type': 'json_object'}, 'stop': None, 'temperature': 0}}
+2025-08-18 16:43:23,415 - DEBUG - Sending HTTP Request: POST https://router.huggingface.co/v1/chat/completions
+2025-08-18 16:43:23,417 - DEBUG - connect_tcp.started host='router.huggingface.co' port=443 local_address=None timeout=5.0 socket_options=None
+2025-08-18 16:43:23,622 - DEBUG - connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x76ec8c0e4800>
+2025-08-18 16:43:23,623 - DEBUG - start_tls.started ssl_context=<ssl.SSLContext object at 0x76ec8c6d6250> server_hostname='router.huggingface.co' timeout=5.0
+2025-08-18 16:43:23,685 - DEBUG - start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x76ec8c218e00>
+2025-08-18 16:43:23,686 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2025-08-18 16:43:23,687 - DEBUG - send_request_headers.complete
+2025-08-18 16:43:23,688 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2025-08-18 16:43:23,688 - DEBUG - send_request_body.complete
+2025-08-18 16:43:23,689 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2025-08-18 16:43:23,844 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 400, b'Bad Request', [(b'Content-Type', b'application/json; charset=utf-8'), (b'Content-Length', b'196'), (b'Connection', b'keep-alive'), (b'Date', b'Mon, 18 Aug 2025 12:43:24 GMT'), (b'ETag', b'W/"c4-ZNG+37ugEWq5F3JZFZSIyA4sBnQ"'), (b'X-Powered-By', b'huggingface-moon'), (b'Vary', b'Origin'), (b'Access-Control-Allow-Origin', b'*'), (b'Access-Control-Expose-Headers', b'X-Repo-Commit,X-Request-Id,X-Error-Code,X-Error-Message,X-Total-Count,ETag,Link,Accept-Ranges,Content-Range,X-Linked-Size,X-Linked-ETag,X-Xet-Hash'), (b'X-Robots-Tag', b'none'), (b'cross-origin-opener-policy', b'same-origin'), (b'Referrer-Policy', b'strict-origin-when-cross-origin'), (b'X-Request-Id', b'Root=1-68a31fec-5ff0c12525b0f52324485445'), (b'X-Cache', b'Error from cloudfront'), (b'Via', b'1.1 cae5c5323232533718f592c973f01432.cloudfront.net (CloudFront)'), (b'X-Amz-Cf-Pop', b'FRA60-P6'), (b'X-Amz-Cf-Id', b'VWoOcBPYc6Jhq-1-ZNqCz5OpXTWsFQk6Rw2Emcsb_HraIPubAJP1xg==')])
+2025-08-18 16:43:23,846 - INFO - HTTP Request: POST https://router.huggingface.co/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2025-08-18 16:43:23,847 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2025-08-18 16:43:23,847 - DEBUG - receive_response_body.complete
+2025-08-18 16:43:23,848 - DEBUG - response_closed.started
+2025-08-18 16:43:23,849 - DEBUG - response_closed.complete
+2025-08-18 16:43:23,849 - DEBUG - HTTP Response: POST https://router.huggingface.co/v1/chat/completions "400 Bad Request" Headers({'content-type': 'application/json; charset=utf-8', 'content-length': '196', 'connection': 'keep-alive', 'date': 'Mon, 18 Aug 2025 12:43:24 GMT', 'etag': 'W/"c4-ZNG+37ugEWq5F3JZFZSIyA4sBnQ"', 'x-powered-by': 'huggingface-moon', 'vary': 'Origin', 'access-control-allow-origin': '*', 'access-control-expose-headers': 'X-Repo-Commit,X-Request-Id,X-Error-Code,X-Error-Message,X-Total-Count,ETag,Link,Accept-Ranges,Content-Range,X-Linked-Size,X-Linked-ETag,X-Xet-Hash', 'x-robots-tag': 'none', 'cross-origin-opener-policy': 'same-origin', 'referrer-policy': 'strict-origin-when-cross-origin', 'x-request-id': 'Root=1-68a31fec-5ff0c12525b0f52324485445', 'x-cache': 'Error from cloudfront', 'via': '1.1 cae5c5323232533718f592c973f01432.cloudfront.net (CloudFront)', 'x-amz-cf-pop': 'FRA60-P6', 'x-amz-cf-id': 'VWoOcBPYc6Jhq-1-ZNqCz5OpXTWsFQk6Rw2Emcsb_HraIPubAJP1xg=='})
+2025-08-18 16:43:23,850 - DEBUG - request_id: Root=1-68a31fec-5ff0c12525b0f52324485445
+2025-08-18 16:43:23,851 - DEBUG - Encountered httpx.HTTPStatusError
+Traceback (most recent call last):
+  File "/mnt/d/Github Projects/ClarQ-LLM/.venv/lib/python3.12/site-packages/openai/_base_client.py", line 1027, in request
+    response.raise_for_status()
+  File "/mnt/d/Github Projects/ClarQ-LLM/.venv/lib/python3.12/site-packages/httpx/_models.py", line 829, in raise_for_status
+    raise HTTPStatusError(message, request=request, response=self)
+httpx.HTTPStatusError: Client error '400 Bad Request' for url 'https://router.huggingface.co/v1/chat/completions'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400
+2025-08-18 16:43:23,877 - DEBUG - Not retrying
+2025-08-18 16:43:23,878 - DEBUG - Re-raising status error
+2025-08-18 16:43:28,880 - DEBUG - Request options: {'method': 'post', 'url': '/chat/completions', 'files': None, 'idempotency_key': 'stainless-python-retry-3b26fb6d-5f92-42bb-852e-ddc6fbfca3a2', 'json_data': {'messages': [{'role': 'user', 'content': "You are Jax, an information discernment expert, and you know that the solution to the collect rubies task is: 'You can go to the mine to dig for rubies.'. You need to determine whether what adventurer is saying to you is inquiring about information related to the collect rubies task?\n\nThis is the previous conversation betweem you and adventurer:\nJax: what can help you?\nadventurer: Where are the rubies?\n\nIt is known that the solution to the collect rubies task is: You can go to the mine to dig for rubies.. You need to determine whether what adventurer is saying to you is inquiring about information related to the collect rubies task? Return a JSON object containing a 'related' key: the value (boolean type) of the 'related' key indicates whether adventurer has inquired about content related to the task. The format should be as follows: { 'related': True or False }."}], 'model': 'deepseek-ai/DeepSeek-V3', 'response_format': {'type': 'json_object'}, 'stop': None, 'temperature': 0}}
+2025-08-18 16:43:28,882 - DEBUG - Sending HTTP Request: POST https://router.huggingface.co/v1/chat/completions
+2025-08-18 16:43:28,883 - DEBUG - close.started
+2025-08-18 16:43:28,884 - DEBUG - close.complete
+2025-08-18 16:43:28,885 - DEBUG - connect_tcp.started host='router.huggingface.co' port=443 local_address=None timeout=5.0 socket_options=None
+2025-08-18 16:43:28,949 - DEBUG - connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x76ec8c0e6f90>
+2025-08-18 16:43:28,950 - DEBUG - start_tls.started ssl_context=<ssl.SSLContext object at 0x76ec8c6d6250> server_hostname='router.huggingface.co' timeout=5.0
+2025-08-18 16:43:29,012 - DEBUG - start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x76ec8c0e6cf0>
+2025-08-18 16:43:29,013 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2025-08-18 16:43:29,014 - DEBUG - send_request_headers.complete
+2025-08-18 16:43:29,014 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2025-08-18 16:43:29,015 - DEBUG - send_request_body.complete
+2025-08-18 16:43:29,016 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2025-08-18 16:43:29,174 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 400, b'Bad Request', [(b'Content-Type', b'application/json; charset=utf-8'), (b'Content-Length', b'196'), (b'Connection', b'keep-alive'), (b'Date', b'Mon, 18 Aug 2025 12:43:29 GMT'), (b'ETag', b'W/"c4-ZNG+37ugEWq5F3JZFZSIyA4sBnQ"'), (b'X-Powered-By', b'huggingface-moon'), (b'Vary', b'Origin'), (b'Access-Control-Allow-Origin', b'*'), (b'Access-Control-Expose-Headers', b'X-Repo-Commit,X-Request-Id,X-Error-Code,X-Error-Message,X-Total-Count,ETag,Link,Accept-Ranges,Content-Range,X-Linked-Size,X-Linked-ETag,X-Xet-Hash'), (b'X-Robots-Tag', b'none'), (b'cross-origin-opener-policy', b'same-origin'), (b'Referrer-Policy', b'strict-origin-when-cross-origin'), (b'X-Request-Id', b'Root=1-68a31ff1-291cee081411ff674babcef0'), (b'X-Cache', b'Error from cloudfront'), (b'Via', b'1.1 104bdf965b5b1cb596af463b142160de.cloudfront.net (CloudFront)'), (b'X-Amz-Cf-Pop', b'FRA60-P6'), (b'X-Amz-Cf-Id', b'hB3CL2IzNhmrW1YAWfMRpkwdQcmlFd75hY1PjMD_coAKeyAOuIwp6w==')])
+2025-08-18 16:43:29,175 - INFO - HTTP Request: POST https://router.huggingface.co/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2025-08-18 16:43:29,176 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2025-08-18 16:43:29,176 - DEBUG - receive_response_body.complete
+2025-08-18 16:43:29,177 - DEBUG - response_closed.started
+2025-08-18 16:43:29,177 - DEBUG - response_closed.complete
+2025-08-18 16:43:29,178 - DEBUG - HTTP Response: POST https://router.huggingface.co/v1/chat/completions "400 Bad Request" Headers({'content-type': 'application/json; charset=utf-8', 'content-length': '196', 'connection': 'keep-alive', 'date': 'Mon, 18 Aug 2025 12:43:29 GMT', 'etag': 'W/"c4-ZNG+37ugEWq5F3JZFZSIyA4sBnQ"', 'x-powered-by': 'huggingface-moon', 'vary': 'Origin', 'access-control-allow-origin': '*', 'access-control-expose-headers': 'X-Repo-Commit,X-Request-Id,X-Error-Code,X-Error-Message,X-Total-Count,ETag,Link,Accept-Ranges,Content-Range,X-Linked-Size,X-Linked-ETag,X-Xet-Hash', 'x-robots-tag': 'none', 'cross-origin-opener-policy': 'same-origin', 'referrer-policy': 'strict-origin-when-cross-origin', 'x-request-id': 'Root=1-68a31ff1-291cee081411ff674babcef0', 'x-cache': 'Error from cloudfront', 'via': '1.1 104bdf965b5b1cb596af463b142160de.cloudfront.net (CloudFront)', 'x-amz-cf-pop': 'FRA60-P6', 'x-amz-cf-id': 'hB3CL2IzNhmrW1YAWfMRpkwdQcmlFd75hY1PjMD_coAKeyAOuIwp6w=='})
+2025-08-18 16:43:29,179 - DEBUG - request_id: Root=1-68a31ff1-291cee081411ff674babcef0
+2025-08-18 16:43:29,179 - DEBUG - Encountered httpx.HTTPStatusError
+Traceback (most recent call last):
+  File "/mnt/d/Github Projects/ClarQ-LLM/utils/llm.py", line 472, in request
+    completion = self.client.chat.completions.create(
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/d/Github Projects/ClarQ-LLM/.venv/lib/python3.12/site-packages/openai/_utils/_utils.py", line 287, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/d/Github Projects/ClarQ-LLM/.venv/lib/python3.12/site-packages/openai/resources/chat/completions/completions.py", line 1150, in create
+    return self._post(
+           ^^^^^^^^^^^
+  File "/mnt/d/Github Projects/ClarQ-LLM/.venv/lib/python3.12/site-packages/openai/_base_client.py", line 1259, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/d/Github Projects/ClarQ-LLM/.venv/lib/python3.12/site-packages/openai/_base_client.py", line 1047, in request
+    raise self._make_status_error_from_response(err.response) from None
+openai.BadRequestError: Error code: 400 - {'error': {'message': "The requested model 'deepseek-ai/DeepSeek-V3' is not supported by any provider you have enabled.", 'type': 'invalid_request_error', 'param': 'model', 'code': 'model_not_supported'}}
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/mnt/d/Github Projects/ClarQ-LLM/.venv/lib/python3.12/site-packages/openai/_base_client.py", line 1027, in request
+    response.raise_for_status()
+  File "/mnt/d/Github Projects/ClarQ-LLM/.venv/lib/python3.12/site-packages/httpx/_models.py", line 829, in raise_for_status
+    raise HTTPStatusError(message, request=request, response=self)
+httpx.HTTPStatusError: Client error '400 Bad Request' for url 'https://router.huggingface.co/v1/chat/completions'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400
+2025-08-18 16:43:29,241 - DEBUG - Not retrying
+2025-08-18 16:43:29,241 - DEBUG - Re-raising status error
+2025-08-18 16:43:29,515 - DEBUG - close.started
+2025-08-18 16:43:29,519 - DEBUG - close.complete
+2025-08-18 16:45:26,567 - DEBUG - Request options: {'method': 'post', 'url': '/chat/completions', 'files': None, 'idempotency_key': 'stainless-python-retry-d173e6b8-80a1-4edc-be09-daaaddd4ac63', 'json_data': {'messages': [{'role': 'user', 'content': "You are Jax, an information discernment expert, and you know that the solution to the collect rubies task is: 'You can go to the mine to dig for rubies.'. You need to determine whether what adventurer is saying to you is inquiring about information related to the collect rubies task?\n\nThis is the previous conversation betweem you and adventurer:\nJax: what can help you?\nadventurer: hi\n\nIt is known that the solution to the collect rubies task is: You can go to the mine to dig for rubies.. You need to determine whether what adventurer is saying to you is inquiring about information related to the collect rubies task? Return a JSON object containing a 'related' key: the value (boolean type) of the 'related' key indicates whether adventurer has inquired about content related to the task. The format should be as follows: { 'related': True or False }."}], 'model': 'deepseek-ai/DeepSeek-V3', 'response_format': {'type': 'json_object'}, 'stop': None, 'temperature': 0}}
+2025-08-18 16:45:26,575 - DEBUG - Sending HTTP Request: POST https://router.huggingface.co/v1/chat/completions
+2025-08-18 16:45:26,576 - DEBUG - connect_tcp.started host='router.huggingface.co' port=443 local_address=None timeout=5.0 socket_options=None
+2025-08-18 16:45:26,713 - DEBUG - connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x7d89ad1e33e0>
+2025-08-18 16:45:26,714 - DEBUG - start_tls.started ssl_context=<ssl.SSLContext object at 0x7d89ad386250> server_hostname='router.huggingface.co' timeout=5.0
+2025-08-18 16:45:31,135 - DEBUG - start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x7d89ad62e420>
+2025-08-18 16:45:31,136 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2025-08-18 16:45:31,137 - DEBUG - send_request_headers.complete
+2025-08-18 16:45:31,138 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2025-08-18 16:45:31,138 - DEBUG - send_request_body.complete
+2025-08-18 16:45:31,139 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2025-08-18 16:45:31,468 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 400, b'Bad Request', [(b'Content-Type', b'application/json; charset=utf-8'), (b'Content-Length', b'196'), (b'Connection', b'keep-alive'), (b'Date', b'Mon, 18 Aug 2025 12:45:32 GMT'), (b'ETag', b'W/"c4-ZNG+37ugEWq5F3JZFZSIyA4sBnQ"'), (b'X-Powered-By', b'huggingface-moon'), (b'Vary', b'Origin'), (b'Access-Control-Allow-Origin', b'*'), (b'Access-Control-Expose-Headers', b'X-Repo-Commit,X-Request-Id,X-Error-Code,X-Error-Message,X-Total-Count,ETag,Link,Accept-Ranges,Content-Range,X-Linked-Size,X-Linked-ETag,X-Xet-Hash'), (b'X-Robots-Tag', b'none'), (b'cross-origin-opener-policy', b'same-origin'), (b'Referrer-Policy', b'strict-origin-when-cross-origin'), (b'X-Request-Id', b'Root=1-68a3206c-14b3aefe126258341957932c'), (b'X-Cache', b'Error from cloudfront'), (b'Via', b'1.1 7333604337e68c1ea3a1a85e9b6be668.cloudfront.net (CloudFront)'), (b'X-Amz-Cf-Pop', b'AMS58-P2'), (b'X-Amz-Cf-Id', b'vc7jwSJ2__AEWzToRjv4xlhLjtck5_jiM1GOE8PQq7WmVIYsEk6n3w==')])
+2025-08-18 16:45:31,470 - INFO - HTTP Request: POST https://router.huggingface.co/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2025-08-18 16:45:31,471 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2025-08-18 16:45:31,472 - DEBUG - receive_response_body.complete
+2025-08-18 16:45:31,472 - DEBUG - response_closed.started
+2025-08-18 16:45:31,473 - DEBUG - response_closed.complete
+2025-08-18 16:45:31,474 - DEBUG - HTTP Response: POST https://router.huggingface.co/v1/chat/completions "400 Bad Request" Headers({'content-type': 'application/json; charset=utf-8', 'content-length': '196', 'connection': 'keep-alive', 'date': 'Mon, 18 Aug 2025 12:45:32 GMT', 'etag': 'W/"c4-ZNG+37ugEWq5F3JZFZSIyA4sBnQ"', 'x-powered-by': 'huggingface-moon', 'vary': 'Origin', 'access-control-allow-origin': '*', 'access-control-expose-headers': 'X-Repo-Commit,X-Request-Id,X-Error-Code,X-Error-Message,X-Total-Count,ETag,Link,Accept-Ranges,Content-Range,X-Linked-Size,X-Linked-ETag,X-Xet-Hash', 'x-robots-tag': 'none', 'cross-origin-opener-policy': 'same-origin', 'referrer-policy': 'strict-origin-when-cross-origin', 'x-request-id': 'Root=1-68a3206c-14b3aefe126258341957932c', 'x-cache': 'Error from cloudfront', 'via': '1.1 7333604337e68c1ea3a1a85e9b6be668.cloudfront.net (CloudFront)', 'x-amz-cf-pop': 'AMS58-P2', 'x-amz-cf-id': 'vc7jwSJ2__AEWzToRjv4xlhLjtck5_jiM1GOE8PQq7WmVIYsEk6n3w=='})
+2025-08-18 16:45:31,474 - DEBUG - request_id: Root=1-68a3206c-14b3aefe126258341957932c
+2025-08-18 16:45:31,475 - DEBUG - Encountered httpx.HTTPStatusError
+Traceback (most recent call last):
+  File "/mnt/d/Github Projects/ClarQ-LLM/.venv/lib/python3.12/site-packages/openai/_base_client.py", line 1027, in request
+    response.raise_for_status()
+  File "/mnt/d/Github Projects/ClarQ-LLM/.venv/lib/python3.12/site-packages/httpx/_models.py", line 829, in raise_for_status
+    raise HTTPStatusError(message, request=request, response=self)
+httpx.HTTPStatusError: Client error '400 Bad Request' for url 'https://router.huggingface.co/v1/chat/completions'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400
+2025-08-18 16:45:31,500 - DEBUG - Not retrying
+2025-08-18 16:45:31,500 - DEBUG - Re-raising status error
+2025-08-18 16:45:37,341 - DEBUG - Request options: {'method': 'post', 'url': '/chat/completions', 'files': None, 'idempotency_key': 'stainless-python-retry-01f6a575-21b1-484a-9840-ea94acd64f87', 'json_data': {'messages': [{'role': 'user', 'content': "You are Jax, an information discernment expert, and you know that the solution to the collect rubies task is: 'You can go to the mine to dig for rubies.'. You need to determine whether what adventurer is saying to you is inquiring about information related to the collect rubies task?\n\nThis is the previous conversation betweem you and adventurer:\nJax: what can help you?\nadventurer: hi\n\nIt is known that the solution to the collect rubies task is: You can go to the mine to dig for rubies.. You need to determine whether what adventurer is saying to you is inquiring about information related to the collect rubies task? Return a JSON object containing a 'related' key: the value (boolean type) of the 'related' key indicates whether adventurer has inquired about content related to the task. The format should be as follows: { 'related': True or False }."}], 'model': 'deepseek-ai/DeepSeek-V3', 'response_format': {'type': 'json_object'}, 'stop': None, 'temperature': 0}}
+2025-08-18 16:45:37,343 - DEBUG - Sending HTTP Request: POST https://router.huggingface.co/v1/chat/completions
+2025-08-18 16:45:37,344 - DEBUG - close.started
+2025-08-18 16:45:37,345 - DEBUG - close.complete
+2025-08-18 16:45:37,346 - DEBUG - connect_tcp.started host='router.huggingface.co' port=443 local_address=None timeout=5.0 socket_options=None
+2025-08-18 16:45:37,496 - DEBUG - connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x7d89acf8f230>
+2025-08-18 16:45:37,497 - DEBUG - start_tls.started ssl_context=<ssl.SSLContext object at 0x7d89ad386250> server_hostname='router.huggingface.co' timeout=5.0
+2025-08-18 16:45:41,889 - DEBUG - start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x7d89acf8ef90>
+2025-08-18 16:45:41,890 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2025-08-18 16:45:41,891 - DEBUG - send_request_headers.complete
+2025-08-18 16:45:41,892 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2025-08-18 16:45:41,892 - DEBUG - send_request_body.complete
+2025-08-18 16:45:41,893 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2025-08-18 16:45:42,050 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 400, b'Bad Request', [(b'Content-Type', b'application/json; charset=utf-8'), (b'Content-Length', b'196'), (b'Connection', b'keep-alive'), (b'Date', b'Mon, 18 Aug 2025 12:45:42 GMT'), (b'ETag', b'W/"c4-ZNG+37ugEWq5F3JZFZSIyA4sBnQ"'), (b'X-Powered-By', b'huggingface-moon'), (b'Vary', b'Origin'), (b'Access-Control-Allow-Origin', b'*'), (b'Access-Control-Expose-Headers', b'X-Repo-Commit,X-Request-Id,X-Error-Code,X-Error-Message,X-Total-Count,ETag,Link,Accept-Ranges,Content-Range,X-Linked-Size,X-Linked-ETag,X-Xet-Hash'), (b'X-Robots-Tag', b'none'), (b'cross-origin-opener-policy', b'same-origin'), (b'Referrer-Policy', b'strict-origin-when-cross-origin'), (b'X-Request-Id', b'Root=1-68a32076-4cb275db6517787777acb008'), (b'X-Cache', b'Error from cloudfront'), (b'Via', b'1.1 9a81383d5a4095cd87ee33985e4b2bf8.cloudfront.net (CloudFront)'), (b'X-Amz-Cf-Pop', b'AMS58-P2'), (b'X-Amz-Cf-Id', b'jPEXFfZZSlsk3TwYpB3fVhgquqnADHqDqRa39WFV9IlPvOjumO2mlQ==')])
+2025-08-18 16:45:42,051 - INFO - HTTP Request: POST https://router.huggingface.co/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2025-08-18 16:45:42,052 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2025-08-18 16:45:42,053 - DEBUG - receive_response_body.complete
+2025-08-18 16:45:42,053 - DEBUG - response_closed.started
+2025-08-18 16:45:42,054 - DEBUG - response_closed.complete
+2025-08-18 16:45:42,055 - DEBUG - HTTP Response: POST https://router.huggingface.co/v1/chat/completions "400 Bad Request" Headers({'content-type': 'application/json; charset=utf-8', 'content-length': '196', 'connection': 'keep-alive', 'date': 'Mon, 18 Aug 2025 12:45:42 GMT', 'etag': 'W/"c4-ZNG+37ugEWq5F3JZFZSIyA4sBnQ"', 'x-powered-by': 'huggingface-moon', 'vary': 'Origin', 'access-control-allow-origin': '*', 'access-control-expose-headers': 'X-Repo-Commit,X-Request-Id,X-Error-Code,X-Error-Message,X-Total-Count,ETag,Link,Accept-Ranges,Content-Range,X-Linked-Size,X-Linked-ETag,X-Xet-Hash', 'x-robots-tag': 'none', 'cross-origin-opener-policy': 'same-origin', 'referrer-policy': 'strict-origin-when-cross-origin', 'x-request-id': 'Root=1-68a32076-4cb275db6517787777acb008', 'x-cache': 'Error from cloudfront', 'via': '1.1 9a81383d5a4095cd87ee33985e4b2bf8.cloudfront.net (CloudFront)', 'x-amz-cf-pop': 'AMS58-P2', 'x-amz-cf-id': 'jPEXFfZZSlsk3TwYpB3fVhgquqnADHqDqRa39WFV9IlPvOjumO2mlQ=='})
+2025-08-18 16:45:42,055 - DEBUG - request_id: Root=1-68a32076-4cb275db6517787777acb008
+2025-08-18 16:45:42,056 - DEBUG - Encountered httpx.HTTPStatusError
+Traceback (most recent call last):
+  File "/mnt/d/Github Projects/ClarQ-LLM/utils/llm.py", line 472, in request
+    completion = self.client.chat.completions.create(
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/d/Github Projects/ClarQ-LLM/.venv/lib/python3.12/site-packages/openai/_utils/_utils.py", line 287, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/d/Github Projects/ClarQ-LLM/.venv/lib/python3.12/site-packages/openai/resources/chat/completions/completions.py", line 1150, in create
+    return self._post(
+           ^^^^^^^^^^^
+  File "/mnt/d/Github Projects/ClarQ-LLM/.venv/lib/python3.12/site-packages/openai/_base_client.py", line 1259, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/d/Github Projects/ClarQ-LLM/.venv/lib/python3.12/site-packages/openai/_base_client.py", line 1047, in request
+    raise self._make_status_error_from_response(err.response) from None
+openai.BadRequestError: Error code: 400 - {'error': {'message': "The requested model 'deepseek-ai/DeepSeek-V3' is not supported by any provider you have enabled.", 'type': 'invalid_request_error', 'param': 'model', 'code': 'model_not_supported'}}
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/mnt/d/Github Projects/ClarQ-LLM/.venv/lib/python3.12/site-packages/openai/_base_client.py", line 1027, in request
+    response.raise_for_status()
+  File "/mnt/d/Github Projects/ClarQ-LLM/.venv/lib/python3.12/site-packages/httpx/_models.py", line 829, in raise_for_status
+    raise HTTPStatusError(message, request=request, response=self)
+httpx.HTTPStatusError: Client error '400 Bad Request' for url 'https://router.huggingface.co/v1/chat/completions'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400
+2025-08-18 16:45:42,123 - DEBUG - Not retrying
+2025-08-18 16:45:42,124 - DEBUG - Re-raising status error
+2025-08-18 16:45:42,367 - DEBUG - close.started
+2025-08-18 16:45:42,372 - DEBUG - close.complete
+2025-08-18 16:47:40,589 - DEBUG - Request options: {'method': 'post', 'url': '/chat/completions', 'files': None, 'idempotency_key': 'stainless-python-retry-bc690c6f-1c5d-45a9-a04d-4094eba6d8e1', 'json_data': {'messages': [{'role': 'user', 'content': "You are Jax, an information discernment expert, and you know that the solution to the collect rubies task is: 'You can go to the mine to dig for rubies.'. You need to determine whether what adventurer is saying to you is inquiring about information related to the collect rubies task?\n\nThis is the previous conversation betweem you and adventurer:\nJax: what can help you?\nadventurer: c\n\nIt is known that the solution to the collect rubies task is: You can go to the mine to dig for rubies.. You need to determine whether what adventurer is saying to you is inquiring about information related to the collect rubies task? Return a JSON object containing a 'related' key: the value (boolean type) of the 'related' key indicates whether adventurer has inquired about content related to the task. The format should be as follows: { 'related': True or False }."}], 'model': 'deepseek-ai/DeepSeek-R1-Distill-Llama-8B', 'response_format': {'type': 'json_object'}, 'stop': None, 'temperature': 0}}
+2025-08-18 16:47:40,599 - DEBUG - Sending HTTP Request: POST https://router.huggingface.co/v1/chat/completions
+2025-08-18 16:47:40,600 - DEBUG - connect_tcp.started host='router.huggingface.co' port=443 local_address=None timeout=5.0 socket_options=None
+2025-08-18 16:47:40,865 - DEBUG - connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x7c380b1210d0>
+2025-08-18 16:47:40,866 - DEBUG - start_tls.started ssl_context=<ssl.SSLContext object at 0x7c380b272250> server_hostname='router.huggingface.co' timeout=5.0
+2025-08-18 16:47:40,964 - DEBUG - start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x7c380b81b260>
+2025-08-18 16:47:40,965 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2025-08-18 16:47:40,967 - DEBUG - send_request_headers.complete
+2025-08-18 16:47:40,967 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2025-08-18 16:47:40,968 - DEBUG - send_request_body.complete
+2025-08-18 16:47:40,969 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2025-08-18 16:47:41,229 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 400, b'Bad Request', [(b'Content-Type', b'application/json; charset=utf-8'), (b'Content-Length', b'213'), (b'Connection', b'keep-alive'), (b'Date', b'Mon, 18 Aug 2025 12:47:41 GMT'), (b'ETag', b'W/"d5-Ct9hwoFcIWadnOe9Ivb9DHFPIbg"'), (b'X-Powered-By', b'huggingface-moon'), (b'Vary', b'Origin'), (b'Access-Control-Allow-Origin', b'*'), (b'Access-Control-Expose-Headers', b'X-Repo-Commit,X-Request-Id,X-Error-Code,X-Error-Message,X-Total-Count,ETag,Link,Accept-Ranges,Content-Range,X-Linked-Size,X-Linked-ETag,X-Xet-Hash'), (b'X-Robots-Tag', b'none'), (b'cross-origin-opener-policy', b'same-origin'), (b'Referrer-Policy', b'strict-origin-when-cross-origin'), (b'X-Request-Id', b'Root=1-68a320ed-0d98c7366149ab74746ab033'), (b'X-Cache', b'Error from cloudfront'), (b'Via', b'1.1 1fb0b89a5ccfb45255b8e8539e256ee2.cloudfront.net (CloudFront)'), (b'X-Amz-Cf-Pop', b'ARN56-P1'), (b'X-Amz-Cf-Id', b'WY4YlTChfB7CnG9hOqZL6UtLD09trlMtmQ0pR-iccSvdkcoXh5ATPQ==')])
+2025-08-18 16:47:41,230 - INFO - HTTP Request: POST https://router.huggingface.co/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2025-08-18 16:47:41,231 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2025-08-18 16:47:41,232 - DEBUG - receive_response_body.complete
+2025-08-18 16:47:41,233 - DEBUG - response_closed.started
+2025-08-18 16:47:41,233 - DEBUG - response_closed.complete
+2025-08-18 16:47:41,234 - DEBUG - HTTP Response: POST https://router.huggingface.co/v1/chat/completions "400 Bad Request" Headers({'content-type': 'application/json; charset=utf-8', 'content-length': '213', 'connection': 'keep-alive', 'date': 'Mon, 18 Aug 2025 12:47:41 GMT', 'etag': 'W/"d5-Ct9hwoFcIWadnOe9Ivb9DHFPIbg"', 'x-powered-by': 'huggingface-moon', 'vary': 'Origin', 'access-control-allow-origin': '*', 'access-control-expose-headers': 'X-Repo-Commit,X-Request-Id,X-Error-Code,X-Error-Message,X-Total-Count,ETag,Link,Accept-Ranges,Content-Range,X-Linked-Size,X-Linked-ETag,X-Xet-Hash', 'x-robots-tag': 'none', 'cross-origin-opener-policy': 'same-origin', 'referrer-policy': 'strict-origin-when-cross-origin', 'x-request-id': 'Root=1-68a320ed-0d98c7366149ab74746ab033', 'x-cache': 'Error from cloudfront', 'via': '1.1 1fb0b89a5ccfb45255b8e8539e256ee2.cloudfront.net (CloudFront)', 'x-amz-cf-pop': 'ARN56-P1', 'x-amz-cf-id': 'WY4YlTChfB7CnG9hOqZL6UtLD09trlMtmQ0pR-iccSvdkcoXh5ATPQ=='})
+2025-08-18 16:47:41,235 - DEBUG - request_id: Root=1-68a320ed-0d98c7366149ab74746ab033
+2025-08-18 16:47:41,235 - DEBUG - Encountered httpx.HTTPStatusError
+Traceback (most recent call last):
+  File "/mnt/d/Github Projects/ClarQ-LLM/utils/llm.py", line 472, in request
+    completion = self.client.chat.completions.create(
+                 ^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/functools.py", line 995, in __get__
+    val = self.func(instance)
+          ^^^^^^^^^^^^^^^^^^^
+  File "/mnt/d/Github Projects/ClarQ-LLM/.venv/lib/python3.12/site-packages/openai/_client.py", line 175, in chat
+    from .resources.chat import Chat
+  File "/mnt/d/Github Projects/ClarQ-LLM/.venv/lib/python3.12/site-packages/openai/resources/__init__.py", line 3, in <module>
+    from .beta import (
+  File "/mnt/d/Github Projects/ClarQ-LLM/.venv/lib/python3.12/site-packages/openai/resources/beta/__init__.py", line 3, in <module>
+    from .beta import (
+  File "/mnt/d/Github Projects/ClarQ-LLM/.venv/lib/python3.12/site-packages/openai/resources/beta/beta.py", line 24, in <module>
+    from .realtime.realtime import (
+  File "/mnt/d/Github Projects/ClarQ-LLM/.venv/lib/python3.12/site-packages/openai/resources/beta/realtime/__init__.py", line 3, in <module>
+    from .realtime import (
+  File "/mnt/d/Github Projects/ClarQ-LLM/.venv/lib/python3.12/site-packages/openai/resources/beta/realtime/realtime.py", line 14, in <module>
+    from .sessions import (
+  File "/mnt/d/Github Projects/ClarQ-LLM/.venv/lib/python3.12/site-packages/openai/resources/beta/realtime/sessions.py", line 17, in <module>
+    from ....types.beta.realtime import session_create_params
+  File "/mnt/d/Github Projects/ClarQ-LLM/.venv/lib/python3.12/site-packages/openai/types/beta/realtime/__init__.py", line 12, in <module>
+    from .realtime_server_event import RealtimeServerEvent as RealtimeServerEvent
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1331, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 935, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1081, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1204, in path_stats
+  File "<frozen importlib._bootstrap_external>", line 147, in _path_stat
+KeyboardInterrupt
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/mnt/d/Github Projects/ClarQ-LLM/.venv/lib/python3.12/site-packages/openai/_base_client.py", line 1027, in request
+    response.raise_for_status()
+  File "/mnt/d/Github Projects/ClarQ-LLM/.venv/lib/python3.12/site-packages/httpx/_models.py", line 829, in raise_for_status
+    raise HTTPStatusError(message, request=request, response=self)
+httpx.HTTPStatusError: Client error '400 Bad Request' for url 'https://router.huggingface.co/v1/chat/completions'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400
+2025-08-18 16:47:41,422 - DEBUG - Not retrying
+2025-08-18 16:47:41,423 - DEBUG - Re-raising status error
+2025-08-18 16:47:41,657 - DEBUG - close.started
+2025-08-18 16:47:41,662 - DEBUG - close.complete
+2025-08-18 16:48:42,431 - DEBUG - Request options: {'method': 'post', 'url': '/chat/completions', 'files': None, 'idempotency_key': 'stainless-python-retry-b7deacca-d3dd-414f-8fe0-b279f031af09', 'json_data': {'messages': [{'role': 'user', 'content': "You are Jax, an information discernment expert, and you know that the solution to the collect rubies task is: 'You can go to the mine to dig for rubies.'. You need to determine whether what adventurer is saying to you is inquiring about information related to the collect rubies task?\n\nThis is the previous conversation betweem you and adventurer:\nJax: what can help you?\nadventurer: Where are the rubies?\n\nIt is known that the solution to the collect rubies task is: You can go to the mine to dig for rubies.. You need to determine whether what adventurer is saying to you is inquiring about information related to the collect rubies task? Return a JSON object containing a 'related' key: the value (boolean type) of the 'related' key indicates whether adventurer has inquired about content related to the task. The format should be as follows: { 'related': True or False }."}], 'model': 'deepseek-ai/DeepSeek-V3:fireworks-ai', 'response_format': {'type': 'json_object'}, 'stop': None, 'temperature': 0}}
+2025-08-18 16:48:42,439 - DEBUG - Sending HTTP Request: POST https://router.huggingface.co/v1/chat/completions
+2025-08-18 16:48:42,440 - DEBUG - connect_tcp.started host='router.huggingface.co' port=443 local_address=None timeout=5.0 socket_options=None
+2025-08-18 16:48:42,692 - DEBUG - connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x7b59b5c24530>
+2025-08-18 16:48:42,693 - DEBUG - start_tls.started ssl_context=<ssl.SSLContext object at 0x7b59b6222250> server_hostname='router.huggingface.co' timeout=5.0
+2025-08-18 16:48:42,806 - DEBUG - start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x7b59b6abe420>
+2025-08-18 16:48:42,807 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2025-08-18 16:48:42,808 - DEBUG - send_request_headers.complete
+2025-08-18 16:48:42,809 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2025-08-18 16:48:42,809 - DEBUG - send_request_body.complete
+2025-08-18 16:48:42,810 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2025-08-18 16:48:43,885 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Content-Type', b'application/json'), (b'Transfer-Encoding', b'chunked'), (b'Connection', b'keep-alive'), (b'Date', b'Mon, 18 Aug 2025 12:48:43 GMT'), (b'server', b'cloudflare'), (b'x-inference-provider', b'fireworks-ai'), (b'X-Powered-By', b'huggingface-moon'), (b'vary', b'Accept-Encoding'), (b'access-control-allow-origin', b'*'), (b'Access-Control-Expose-Headers', b'X-Repo-Commit,X-Request-Id,X-Error-Code,X-Error-Message,X-Total-Count,ETag,Link,Accept-Ranges,Content-Range,X-Linked-Size,X-Linked-ETag,X-Xet-Hash'), (b'X-Robots-Tag', b'none'), (b'cross-origin-opener-policy', b'same-origin'), (b'Referrer-Policy', b'strict-origin-when-cross-origin'), (b'x-request-id', b'8b8e77f0-449d-434a-b021-85272316bad9'), (b'content-encoding', b'gzip'), (b'cf-ray', b'971186ed098d2090-IAD'), (b'cf-cache-status', b'DYNAMIC'), (b'fireworks-middleware-version', b'v2'), (b'fireworks-prompt-tokens', b'200'), (b'fireworks-sampling-options', b'{"max_tokens": 2048, "temperature": 0.0, "top_k": 0, "top_p": 1.0, "min_p": 0.0, "typical_p": 1.0, "frequency_penalty": 0.0, "presence_penalty": 0.0, "repetition_penalty": 1.0, "mirostat_target": null, "mirostat_lr": 0.1}'), (b'fireworks-server-processing-time', b'0.632'), (b'fireworks-server-time-to-first-token', b'0.528'), (b'server-timing', b'total;dur=766.0;desc="Total Response Time"'), (b'x-envoy-upstream-service-time', b'635'), (b'x-ratelimit-limit-requests', b'60'), (b'x-ratelimit-limit-tokens-generated', b'12000'), (b'x-ratelimit-limit-tokens-prompt', b'60000'), (b'x-ratelimit-over-limit', b'no'), (b'x-ratelimit-remaining-requests', b'59'), (b'x-ratelimit-remaining-tokens-generated', b'12000'), (b'x-ratelimit-remaining-tokens-prompt', b'59800'), (b'X-Cache', b'Miss from cloudfront'), (b'Via', b'1.1 a626e6748fd7659cdc58de81924341d6.cloudfront.net (CloudFront)'), (b'X-Amz-Cf-Pop', b'ARN56-P1'), (b'X-Amz-Cf-Id', b'0ulB5HPmvOIArvvkR_y5ljYJotQg44QMYqYBd6SLlhJpDWeyrfIWOg==')])
+2025-08-18 16:48:43,887 - INFO - HTTP Request: POST https://router.huggingface.co/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-18 16:48:43,888 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2025-08-18 16:48:43,889 - DEBUG - receive_response_body.complete
+2025-08-18 16:48:43,890 - DEBUG - response_closed.started
+2025-08-18 16:48:43,890 - DEBUG - response_closed.complete
+2025-08-18 16:48:43,891 - DEBUG - HTTP Response: POST https://router.huggingface.co/v1/chat/completions "200 OK" Headers({'content-type': 'application/json', 'transfer-encoding': 'chunked', 'connection': 'keep-alive', 'date': 'Mon, 18 Aug 2025 12:48:43 GMT', 'server': 'cloudflare', 'x-inference-provider': 'fireworks-ai', 'x-powered-by': 'huggingface-moon', 'vary': 'Accept-Encoding', 'access-control-allow-origin': '*', 'access-control-expose-headers': 'X-Repo-Commit,X-Request-Id,X-Error-Code,X-Error-Message,X-Total-Count,ETag,Link,Accept-Ranges,Content-Range,X-Linked-Size,X-Linked-ETag,X-Xet-Hash', 'x-robots-tag': 'none', 'cross-origin-opener-policy': 'same-origin', 'referrer-policy': 'strict-origin-when-cross-origin', 'x-request-id': '8b8e77f0-449d-434a-b021-85272316bad9', 'content-encoding': 'gzip', 'cf-ray': '971186ed098d2090-IAD', 'cf-cache-status': 'DYNAMIC', 'fireworks-middleware-version': 'v2', 'fireworks-prompt-tokens': '200', 'fireworks-sampling-options': '{"max_tokens": 2048, "temperature": 0.0, "top_k": 0, "top_p": 1.0, "min_p": 0.0, "typical_p": 1.0, "frequency_penalty": 0.0, "presence_penalty": 0.0, "repetition_penalty": 1.0, "mirostat_target": null, "mirostat_lr": 0.1}', 'fireworks-server-processing-time': '0.632', 'fireworks-server-time-to-first-token': '0.528', 'server-timing': 'total;dur=766.0;desc="Total Response Time"', 'x-envoy-upstream-service-time': '635', 'x-ratelimit-limit-requests': '60', 'x-ratelimit-limit-tokens-generated': '12000', 'x-ratelimit-limit-tokens-prompt': '60000', 'x-ratelimit-over-limit': 'no', 'x-ratelimit-remaining-requests': '59', 'x-ratelimit-remaining-tokens-generated': '12000', 'x-ratelimit-remaining-tokens-prompt': '59800', 'x-cache': 'Miss from cloudfront', 'via': '1.1 a626e6748fd7659cdc58de81924341d6.cloudfront.net (CloudFront)', 'x-amz-cf-pop': 'ARN56-P1', 'x-amz-cf-id': '0ulB5HPmvOIArvvkR_y5ljYJotQg44QMYqYBd6SLlhJpDWeyrfIWOg=='})
+2025-08-18 16:48:43,892 - DEBUG - request_id: 8b8e77f0-449d-434a-b021-85272316bad9
+2025-08-18 16:48:49,749 - DEBUG - close.started
+2025-08-18 16:48:49,755 - DEBUG - close.complete
